@@ -388,6 +388,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/e340e75f8279fc72890d969470be625765323ec8941a33183258a51a6c75800a_Male Character 6_Walking Up_3.png",
           "name": "Male Character 6_Walking Up_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze Scythe 9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze Scythe 9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Weapons/Bronze Weapon/Scythe/4ae151020e568d5c1c4c740417024652705bf369a7f0efae5975eac4bd9a7329_Bronze Scythe 9.png",
+          "name": "Bronze Scythe 9.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -455,6 +468,23 @@
           "x": 300,
           "y": 546,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BronzeScythe9",
+          "persistentUuid": "6ec93734-d53d-4348-823f-e92284ca6a23",
+          "width": 371,
+          "x": 1086,
+          "y": 388,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -963,6 +993,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c8131e82c37d3d25df0f66864a4a1ac5643ea22756786989ee0b8272006ba234",
+          "name": "BronzeScythe9",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bronze Scythe 9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -973,6 +1063,9 @@
           },
           {
             "objectName": "MaleCharacter6"
+          },
+          {
+            "objectName": "BronzeScythe9"
           }
         ]
       },
