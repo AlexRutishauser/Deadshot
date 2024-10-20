@@ -1034,7 +1034,7 @@
           "height": 222,
           "keepRatio": true,
           "layer": "",
-          "name": "VirtualGuy",
+          "name": "Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
           "width": 222,
           "x": 11,
@@ -1151,7 +1151,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "4b5760aae85a68f03ca4bbfcbc0976099704579ee96f1af16e75017c62f36387",
-          "name": "VirtualGuy",
+          "name": "Stickman",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2874,7 +2874,7 @@
             "objectName": "StonePlatform"
           },
           {
-            "objectName": "VirtualGuy"
+            "objectName": "Stickman"
           }
         ]
       },
@@ -2941,7 +2941,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "VirtualGuy",
+                "Stickman",
                 "Flippable",
                 "no"
               ]
@@ -2951,7 +2951,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "VirtualGuy",
+                "Stickman",
                 "Flippable",
                 "yes"
               ]
@@ -2964,7 +2964,7 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "Animation",
+          "name": "Animation ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -2984,47 +2984,15 @@
                 "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
-                "VirtualGuy",
+                "Stickman",
                 "PlatformerObject"
               ]
             },
             {
               "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::IsJumping"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "VirtualGuy",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-              },
-              "parameters": [
-                "VirtualGuy",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-              },
-              "parameters": [
-                "VirtualGuy",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "VirtualGuy",
-                "PlatformerObject"
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -3033,99 +3001,99 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "VirtualGuy",
+                "Stickman",
                 "Animation",
                 "=",
                 "\"Jump\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "VirtualGuy",
-                "Animation",
-                "=",
-                "\"Jump\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "VirtualGuy",
-                "Animation",
-                "=",
-                "\"Run\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "VirtualGuy",
-                "Animation",
-                "=",
-                "\"Run\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "VirtualGuy",
-                "Animation",
-                "=",
-                "\"Idle\""
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Movement",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ],
-          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
               },
               "parameters": [
-                "",
-                "a"
+                "Stickman",
+                "PlatformerObject"
               ]
             },
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "",
-                "d"
-              ]
+              "parameters": []
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Stickman",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Stickman",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
