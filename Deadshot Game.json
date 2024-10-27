@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 216,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -973,6 +973,58 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Main Characters/Virtual Guy/ffbd367caa2e60b01b2504ff34a709fc949ab8ba5135b58e03df70a005f2cfef_Virtual Guy_Wall Jump_5.png",
           "name": "Virtual Guy_Wall Jump_5.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Security fence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Security fence.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/365479f0a7e319eb7010abd6c766d58c4df3a56b36391d405fd779e512bf24cd_tiled_Security fence.png",
+          "name": "tiled_Security fence.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/66b19bf24d3a8b17b3ed60270725247aa2f81719057f8e8775f43d739f4aa6ca_Platform 1.png",
+          "name": "Platform 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Industrial block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Industrial block.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/408573860c94a289f8de8b40fe2f8b953884ff05f36a2c3c4151c80aee766519_Industrial block.png",
+          "name": "Industrial block.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Purple background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Purple background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Backgrounds/889fdb43b0c63b52d18ae4618299bb2411f4f5cd3ea9890e7c68f4f4986896fd_tiled_Purple background.png",
+          "name": "tiled_Purple background.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1004,7 +1056,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.31119749424452064,
+        "zoomFactor": 0.35534345588170246,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1037,8 +1089,8 @@
           "name": "Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
           "width": 222,
-          "x": 11,
-          "y": 606,
+          "x": 4,
+          "y": 600,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1054,8 +1106,8 @@
           "name": "StonePlatform",
           "persistentUuid": "25a808e5-9f66-4be5-b35c-b48f85bfccb5",
           "width": 1912,
-          "x": 1875,
-          "y": 826,
+          "x": 1918,
+          "y": 828,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1071,9 +1123,128 @@
           "name": "StonePlatform",
           "persistentUuid": "6c6d4299-2937-4a72-921a-7f90a93ca9f0",
           "width": 1912,
-          "x": 3742,
-          "y": 826,
+          "x": 3830,
+          "y": 827,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 16,
+          "height": 249,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "70305e73-d0c4-4784-8937-f14a1bd0beaa",
+          "width": 1912,
+          "x": -1865,
+          "y": 829,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 626,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PurpleBackground",
+          "persistentUuid": "4f707cbb-ea9f-451b-b5a2-dc7f7358d223",
+          "width": 115,
+          "x": 1249,
+          "y": 174,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 674,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PurpleBackground",
+          "persistentUuid": "b347f69f-bb11-4a40-a1b1-1f9026f8bbc2",
+          "width": 111,
+          "x": 798,
+          "y": -107,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 16,
+          "height": 249,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "835c70f6-4169-4fca-87d2-40d5d3c2d1d2",
+          "width": 1912,
+          "x": 4910,
+          "y": -194,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 16,
+          "height": 249,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "53b0b6bd-3f9e-49ae-a489-14632dc55ce5",
+          "width": 1912,
+          "x": -2945,
+          "y": -189,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PurpleBackground2",
+          "persistentUuid": "a6f73326-b15c-4800-a4c1-cb4b43ac45c0",
+          "width": 97,
+          "x": 1279,
+          "y": 177,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PurpleBackground2",
+          "persistentUuid": "ad514d18-141b-4b6c-88ea-76c0ff369762",
+          "width": 97,
+          "x": 789,
+          "y": -53,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1090,10 +1261,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -1154,31 +1325,42 @@
           "name": "Stickman",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "WallJumpDirection",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 1500,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1000,
+              "deceleration": 1000,
+              "gravity": 1200,
+              "jumpSpeed": 600,
+              "maxFallingSpeed": 600,
+              "maxSpeed": 1002,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
               "ignoreDefaultControls": false,
-              "isFolded": true,
-              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             },
             {
+              "isFolded": true,
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
               "LeftwardSpeed": 0.9,
@@ -2865,6 +3047,44 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "653519df871cb169057a6348a2ee25ced783ccbf0e9925de08cb28460c37d2b5",
+          "height": 480,
+          "name": "PurpleBackground",
+          "texture": "tiled_Purple background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 640,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "653519df871cb169057a6348a2ee25ced783ccbf0e9925de08cb28460c37d2b5",
+          "height": 480,
+          "name": "PurpleBackground2",
+          "texture": "tiled_Purple background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 640,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2875,6 +3095,12 @@
           },
           {
             "objectName": "Stickman"
+          },
+          {
+            "objectName": "PurpleBackground"
+          },
+          {
+            "objectName": "PurpleBackground2"
           }
         ]
       },
@@ -2907,13 +3133,21 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Flip Character",
+          "folded": true,
+          "name": "Movement Control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2922,7 +3156,96 @@
               },
               "parameters": [
                 "",
-                "Home"
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Flip Character",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
               ]
             },
             {
@@ -2931,7 +3254,7 @@
               },
               "parameters": [
                 "",
-                "End"
+                "d"
               ]
             }
           ],
@@ -2943,7 +3266,7 @@
               "parameters": [
                 "Stickman",
                 "Flippable",
-                "no"
+                "yes"
               ]
             },
             {
@@ -2977,6 +3300,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3010,6 +3334,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3043,6 +3368,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3094,6 +3420,393 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Slide Down",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxFallingSpeed"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject",
+                "=",
+                "700",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsFalling"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Stickman",
+                "PurpleBackground",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Home"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "End"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxFallingSpeed"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject",
+                "=",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SetCanJump"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Stickman",
+                "WallJumpDirection",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Home"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Stickman",
+                "WallJumpDirection",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "End"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Stickman",
+                "WallJumpDirection",
+                "=",
+                "-1"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Jump Opposite ",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Stickman",
+                "WallJumpDirection",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Stickman",
+                "WallJumpDirection",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Stickman",
+                "WallJumpDirection",
+                "!=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Stickman",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Stickman",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Stickman",
+                "WallJumpDirection",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Stickman",
+                "PurpleBackground",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxFallingSpeed"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject",
+                "=",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SetCanJump"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Stickman",
+                "WallJumpDirection",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -3182,7 +3895,42 @@
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Untitled scene",
+      "name": "Ladder",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Stickman",
+                "PurpleBackground",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLadderKey"
+              },
+              "parameters": [
+                "Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "",
