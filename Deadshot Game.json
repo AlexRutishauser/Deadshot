@@ -1377,7 +1377,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.0853722732090207,
+        "zoomFactor": 0.2308918338522552,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2334,7 +2334,7 @@
               "PlatformerCharacter": "PlatformerObject",
               "PlatformerConfigurationStack": "PlatformerConfigurationStack",
               "JumpTimeFrame": 0.125,
-              "WallJumpSpeedX": 250,
+              "WallJumpSpeedX": 200,
               "WallJumpAccelerationX": 1500,
               "SideSpeedSustainTime": 0.2,
               "WallSlidingGravity": 500,
