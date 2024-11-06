@@ -1313,6 +1313,15 @@
         "name": "assets\\Pills.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shotgun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Shotgun.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1350,7 +1359,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.09122690912701963,
+        "zoomFactor": 0.47893418845353647,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2021,6 +2030,23 @@
           "x": 2596,
           "y": -1664,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 127,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shotgun_",
+          "persistentUuid": "7170db4a-978c-4c9b-9f73-f47c6ef73246",
+          "width": 127,
+          "x": 587,
+          "y": -1599,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4618,13 +4644,78 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Shotgun_",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Shotgun.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 256,
+                            "y": 640
+                          },
+                          {
+                            "x": 1760,
+                            "y": 640
+                          },
+                          {
+                            "x": 1760,
+                            "y": 1056
+                          },
+                          {
+                            "x": 256,
+                            "y": 1056
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "folderName": "Weapons"
+            "folderName": "Weapons",
+            "children": [
+              {
+                "objectName": "Shotgun_"
+              }
+            ]
           },
           {
             "folderName": "Text",
@@ -4636,9 +4727,6 @@
                 "objectName": "Ammo_Counter"
               }
             ]
-          },
-          {
-            "objectName": "StonePlatform"
           },
           {
             "folderName": "Enemies",
@@ -4679,6 +4767,9 @@
           },
           {
             "objectName": "Target"
+          },
+          {
+            "objectName": "StonePlatform"
           }
         ]
       },
