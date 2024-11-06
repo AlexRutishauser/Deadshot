@@ -1277,6 +1277,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Environment/facbd83217d00706c76dbb6731ac72c1935ee5f246c44796712fbdfb2029e730_Target_Outline.png",
           "name": "Target_Outline.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grunt-7.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Grunt-7.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Elite_Enemy-5.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Elite_Enemy-5.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mercenary-6.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mercenary-6.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pills.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pills.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1314,7 +1350,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.08825105444132844,
+        "zoomFactor": 0.09122690912701963,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1347,8 +1383,8 @@
           "name": "Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
           "width": 96,
-          "x": 112,
-          "y": 672,
+          "x": 152,
+          "y": 731,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1866,6 +1902,125 @@
           "x": -2877,
           "y": -173,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Low_Tier_Enemy",
+          "persistentUuid": "51b1f972-6937-467a-897a-e43eeaa45c23",
+          "width": 170,
+          "x": 791,
+          "y": 658,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 257,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Medium_Tier_Enemy",
+          "persistentUuid": "a64487ee-9433-4b73-96f5-e8186886c4e3",
+          "width": 257,
+          "x": 4707,
+          "y": 566,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 467,
+          "keepRatio": true,
+          "layer": "",
+          "name": "High_Tier_Enemy",
+          "persistentUuid": "ace784ba-607a-454d-beac-9542c1fa37b1",
+          "width": 467,
+          "x": 10137,
+          "y": -3870,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Low_Tier_Enemy",
+          "persistentUuid": "c9394781-752f-4b8d-81b9-cf1879b9036e",
+          "width": 170,
+          "x": 359,
+          "y": -2104,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 257,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Medium_Tier_Enemy",
+          "persistentUuid": "5e36f518-c769-4f6e-b952-6e9dd0a27ce9",
+          "width": 257,
+          "x": -389,
+          "y": -2054,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Low_Tier_Enemy",
+          "persistentUuid": "81e3d2ee-3272-4527-8615-7a2e4f01c85a",
+          "width": 170,
+          "x": 5450,
+          "y": -3067,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 181,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Health_Pick_Up",
+          "persistentUuid": "a81e6c10-889a-4e1c-a02a-1bbcc0816587",
+          "width": 181,
+          "x": 2596,
+          "y": -1664,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4223,6 +4378,246 @@
             "characterSize": 70,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Low_Tier_Enemy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Grunt-7.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 544,
+                            "y": 352
+                          },
+                          {
+                            "x": 992,
+                            "y": 352
+                          },
+                          {
+                            "x": 992,
+                            "y": 1024
+                          },
+                          {
+                            "x": 544,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Medium_Tier_Enemy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Mercenary-6.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 416,
+                            "y": 320
+                          },
+                          {
+                            "x": 960,
+                            "y": 320
+                          },
+                          {
+                            "x": 960,
+                            "y": 1024
+                          },
+                          {
+                            "x": 416,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "High_Tier_Enemy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Elite_Enemy-5.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 416,
+                            "y": 128
+                          },
+                          {
+                            "x": 960,
+                            "y": 128
+                          },
+                          {
+                            "x": 960,
+                            "y": 1024
+                          },
+                          {
+                            "x": 416,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Health_Pick_Up",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Pills.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 640,
+                            "y": 512
+                          },
+                          {
+                            "x": 1184,
+                            "y": 512
+                          },
+                          {
+                            "x": 1184,
+                            "y": 1472
+                          },
+                          {
+                            "x": 640,
+                            "y": 1472
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4246,10 +4641,32 @@
             "objectName": "StonePlatform"
           },
           {
-            "objectName": "Stickman"
+            "folderName": "Enemies",
+            "children": [
+              {
+                "objectName": "Medium_Tier_Enemy"
+              },
+              {
+                "objectName": "High_Tier_Enemy"
+              },
+              {
+                "objectName": "Low_Tier_Enemy"
+              }
+            ]
           },
           {
-            "objectName": "Ammo"
+            "folderName": "Drops",
+            "children": [
+              {
+                "objectName": "Ammo"
+              },
+              {
+                "objectName": "Health_Pick_Up"
+              }
+            ]
+          },
+          {
+            "objectName": "Stickman"
           },
           {
             "objectName": "Fireball"
