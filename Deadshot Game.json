@@ -1322,6 +1322,24 @@
         "name": "assets\\Shotgun.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Health Bar.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire Ammo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fire Ammo.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1359,7 +1377,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845353647,
+        "zoomFactor": 0.08537227320902054,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1375,7 +1393,7 @@
           "name": "StonePlatform",
           "persistentUuid": "bd314f69-61aa-40c3-a62c-c34e90c28ddd",
           "width": 1912,
-          "x": 6,
+          "x": 15,
           "y": 828,
           "zOrder": 1,
           "numberProperties": [],
@@ -1389,7 +1407,7 @@
           "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "Stickman",
+          "name": "Agent_Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
           "width": 96,
           "x": 152,
@@ -1437,14 +1455,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 308,
+          "height": 109,
           "keepRatio": true,
           "layer": "",
           "name": "Ammo",
           "persistentUuid": "63445782-1c2d-41b0-bb7f-670c0fe318ba",
-          "width": 274,
-          "x": -378,
-          "y": 609,
+          "width": 97,
+          "x": 3395,
+          "y": 748,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -1508,8 +1526,8 @@
           "name": "Ammo_Counter",
           "persistentUuid": "9a8e68a9-964a-47d5-8179-7eb11a864423",
           "width": 0,
-          "x": 43,
-          "y": 972,
+          "x": 41,
+          "y": 62,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1783,15 +1801,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 432,
           "keepRatio": true,
           "layer": "",
           "name": "PurpleBackground",
           "persistentUuid": "608f3919-82ae-4265-bf6c-a19b4e74d4b1",
-          "width": 0,
-          "x": 1826,
-          "y": -2429,
+          "width": 576,
+          "x": 1841,
+          "y": -2433,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2041,7 +2060,7 @@
           "height": 127,
           "keepRatio": true,
           "layer": "",
-          "name": "Shotgun_",
+          "name": "Shotgun",
           "persistentUuid": "7170db4a-978c-4c9b-9f73-f47c6ef73246",
           "width": 127,
           "x": 587,
@@ -2124,7 +2143,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "4b5760aae85a68f03ca4bbfcbc0976099704579ee96f1af16e75017c62f36387",
-          "name": "Stickman",
+          "name": "Agent_Stickman",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -2135,6 +2154,11 @@
             },
             {
               "name": "Variable",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "JumpCount",
               "type": "number",
               "value": 0
             }
@@ -3932,7 +3956,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Fire Ammo.gif",
+                      "image": "assets\\Fire Ammo.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3975,7 +3999,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "fcc1ada16e6add83eaf9939e9b4fd692bc4473d3d2ea040acc07ce0a90af533e",
-          "name": "Fireball",
+          "name": "Bullets",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4173,7 +4197,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Health Bar.png",
+                      "image": "assets\\Health Bar.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4216,7 +4240,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "1173474f4bc1ee8c2f98853b81ced980ec66bd3dbea50866f0fe7a33b29eb493",
-          "name": "Target",
+          "name": "Crosshair",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4648,7 +4672,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Shotgun_",
+          "name": "Shotgun",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4710,21 +4734,27 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "folderName": "Weapons",
+            "folderName": "Platforms",
             "children": [
               {
-                "objectName": "Shotgun_"
+                "objectName": "PurpleBackground"
+              },
+              {
+                "objectName": "StonePlatform"
               }
             ]
           },
           {
-            "folderName": "Text",
+            "folderName": "Weapons",
             "children": [
               {
-                "objectName": "TimerText"
+                "objectName": "Bullets"
               },
               {
-                "objectName": "Ammo_Counter"
+                "objectName": "Shotgun"
+              },
+              {
+                "objectName": "Crosshair"
               }
             ]
           },
@@ -4732,10 +4762,10 @@
             "folderName": "Enemies",
             "children": [
               {
-                "objectName": "Medium_Tier_Enemy"
+                "objectName": "High_Tier_Enemy"
               },
               {
-                "objectName": "High_Tier_Enemy"
+                "objectName": "Medium_Tier_Enemy"
               },
               {
                 "objectName": "Low_Tier_Enemy"
@@ -4754,22 +4784,26 @@
             ]
           },
           {
-            "objectName": "Stickman"
+            "folderName": "HUD Elements",
+            "children": [
+              {
+                "folderName": "Text",
+                "children": [
+                  {
+                    "objectName": "TimerText"
+                  },
+                  {
+                    "objectName": "Ammo_Counter"
+                  }
+                ]
+              },
+              {
+                "objectName": "Health_Bar"
+              }
+            ]
           },
           {
-            "objectName": "Fireball"
-          },
-          {
-            "objectName": "PurpleBackground"
-          },
-          {
-            "objectName": "Health_Bar"
-          },
-          {
-            "objectName": "Target"
-          },
-          {
-            "objectName": "StonePlatform"
+            "objectName": "Agent_Stickman"
           }
         ]
       },
@@ -4793,7 +4827,7 @@
               },
               "parameters": [
                 "",
-                "Target",
+                "Crosshair",
                 "CursorX()",
                 "CursorY()",
                 ""
@@ -4804,7 +4838,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "Target",
+                "Crosshair",
                 "=",
                 "99999"
               ]
@@ -4882,7 +4916,7 @@
                 "value": "PlatformBehavior::SimulateLeftKey"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             },
@@ -4891,7 +4925,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "Flippable",
                 "yes"
               ]
@@ -4917,7 +4951,7 @@
                 "value": "PlatformBehavior::SimulateRightKey"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             },
@@ -4926,7 +4960,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "Flippable",
                 "no"
               ]
@@ -4952,7 +4986,7 @@
                 "value": "PlatformBehavior::SimulateJumpKey"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             }
@@ -4984,7 +5018,7 @@
                 "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             },
@@ -5001,7 +5035,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "Animation",
                 "=",
                 "\"Jump\""
@@ -5017,7 +5051,7 @@
                 "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             },
@@ -5034,7 +5068,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "Animation",
                 "=",
                 "\"Run\""
@@ -5050,7 +5084,7 @@
                 "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             },
@@ -5060,7 +5094,7 @@
                 "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             },
@@ -5070,7 +5104,7 @@
                 "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             },
@@ -5087,7 +5121,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "Animation",
                 "=",
                 "\"Idle\""
@@ -5103,7 +5137,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PurpleBackground",
                 "",
                 "",
@@ -5117,7 +5151,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "Animation",
                 "=",
                 "\"Wall Jump\""
@@ -5163,11 +5197,11 @@
                 "value": "FireBullet::FireBullet::FireTowardPosition"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "FireBullet",
-                "Stickman.BoundingBoxCenterX()",
-                "Stickman.BoundingBoxCenterY()",
-                "Fireball",
+                "Agent_Stickman.BoundingBoxCenterX()",
+                "Agent_Stickman.BoundingBoxCenterY()",
+                "Bullets",
                 "CursorX()",
                 "CursorY()",
                 "400",
@@ -5195,7 +5229,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "Ammo",
                 "",
                 "",
@@ -5220,6 +5254,125 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Double Jumping",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "JumpCount",
+                "<",
+                "2"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "JumpCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "Animation",
+                    "=",
+                    "\"Double Jump\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "JumpCount",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Crosshair",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5235,7 +5388,7 @@
                 "value": "SetCenter"
               },
               "parameters": [
-                "Target",
+                "Crosshair",
                 "=",
                 "CursorX()",
                 "=",
@@ -5300,7 +5453,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -5397,7 +5550,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "Ladder_to_Climb",
                 "",
                 "",
@@ -5411,7 +5564,7 @@
                 "value": "PlatformBehavior::SimulateLadderKey"
               },
               "parameters": [
-                "Stickman",
+                "Agent_Stickman",
                 "PlatformerObject"
               ]
             }
