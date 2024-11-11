@@ -2357,7 +2357,7 @@
               "WallJumpSpeedX": 50,
               "WallJumpAccelerationX": 1500,
               "SideSpeedSustainTime": 0.2,
-              "WallSlidingGravity": 500,
+              "WallSlidingGravity": 300,
               "WallSlidingMaxFallingSpeed": 350,
               "WallSlidingSpeedAbsorption": 350,
               "WallSlidingFallingSpeedMin": 50,
