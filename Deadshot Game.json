@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 216,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1427,6 +1427,32 @@
         "name": "New Piskel.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/e6e666707e06c429f6dd475d85d575a5b69a1dc27369a8f1d06a747afa2f1264_Health Bar Box.png",
+          "name": "Health Bar Box.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/ec41092214e9b23d9992e2885835085c8e5457268b3e054599e799cc8074fc52_Health Bar.png",
+          "name": "Health Bar.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1464,7 +1490,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827592926,
+        "zoomFactor": 1.0973679695630116,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1735,23 +1761,6 @@
           "x": 1425,
           "y": 604,
           "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 18,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "HealthBarFill",
-          "persistentUuid": "d6fa21d0-6ce2-411c-8943-2d2c31143c27",
-          "width": 295,
-          "x": 41,
-          "y": 36,
-          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2931,16 +2940,33 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 168,
+          "depth": 4,
+          "height": 55,
           "keepRatio": true,
-          "layer": "",
-          "name": "Shotgun",
-          "persistentUuid": "7e9a18e6-2d5f-4229-99ef-f681b67e4e55",
-          "width": 168,
-          "x": 666,
-          "y": 661,
+          "layer": "UI",
+          "name": "HealthBarBox",
+          "persistentUuid": "396380e2-0b93-46df-bbf1-30759d297a2e",
+          "width": 467,
+          "x": 14,
+          "y": 9,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "HealthBar",
+          "persistentUuid": "7037adce-5c84-4578-a474-ce13c6fcc04e",
+          "width": 443,
+          "x": 26,
+          "y": 14,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5930,17 +5956,6 @@
           ]
         },
         {
-          "assetStoreId": "1f3dba67c868b7320572a6591d1d0418f23b7c132df0963cf77286a9149971d9",
-          "height": 18,
-          "name": "HealthBarFill",
-          "texture": "tiled_Health Bar Fill.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 80,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Boss",
@@ -6047,6 +6062,78 @@
             "characterSize": 70,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "138ee716846635e3e0e5ab7b63752d1a36754f1ac874c70e1b5fa372d5a05474",
+          "bottomMargin": 6,
+          "height": 15,
+          "leftMargin": 11,
+          "name": "HealthBarBox",
+          "rightMargin": 9,
+          "texture": "Health Bar Box.png",
+          "tiled": true,
+          "topMargin": 6,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "0ad03c70a5c5284cc85170b3852e425db0f4deed8225b1b10722ef26902186d8",
+          "bottomMargin": 2,
+          "height": 9,
+          "leftMargin": 3,
+          "name": "HealthBar",
+          "rightMargin": 3,
+          "texture": "Health Bar.png2",
+          "tiled": true,
+          "topMargin": 4,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 78,
+          "variables": [
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 25
+            },
+            {
+              "name": "MaxHealth",
+              "type": "number",
+              "value": 25
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "AllowOverHealing": false,
+              "IsHealthJustDamaged": false,
+              "DamageToBeApplied": 0,
+              "HitAtLeastOnce": false,
+              "ChanceToDodge": 0,
+              "IsJustDodged": false,
+              "HealToBeApplied": 0,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 2.0247e-320,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ShieldDamageTaken": 2.0247e-320,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6112,7 +6199,10 @@
             "folderName": "HUD Elements",
             "children": [
               {
-                "objectName": "HealthBarFill"
+                "objectName": "HealthBar"
+              },
+              {
+                "objectName": "HealthBarBox"
               },
               {
                 "folderName": "Text",
