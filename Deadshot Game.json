@@ -1453,6 +1453,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/ec41092214e9b23d9992e2885835085c8e5457268b3e054599e799cc8074fc52_Health Bar.png",
           "name": "Health Bar.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Projectile/5cb7c240d55e97c18f6f1da41d1c379049db6799daacaf3cf06ff99b1909feaf_Bullet.png",
+          "name": "Bullet.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/f8c97f4f344ceda06e1b53c65b15e33b24c6256e0991bc881eb7f2317b89ba57_Bullet 5.png",
+          "name": "Bullet 5.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1481,7 +1507,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -1489,8 +1515,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.06768546898536511,
+        "snap": true,
+        "zoomFactor": 0.787629010167426,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1506,8 +1532,8 @@
           "name": "StonePlatform",
           "persistentUuid": "bd314f69-61aa-40c3-a62c-c34e90c28ddd",
           "width": 7610,
-          "x": 15,
-          "y": 828,
+          "x": 0,
+          "y": 832,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1523,8 +1549,8 @@
           "name": "Agent_Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
           "width": 96,
-          "x": 114,
-          "y": 697,
+          "x": 128,
+          "y": 736,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1758,8 +1784,8 @@
           "name": "TopLeftCornerWoodBackgroundCutout",
           "persistentUuid": "6d36b960-f87c-47a4-ad9c-6530cb2dbb29",
           "width": 223,
-          "x": 1425,
-          "y": 604,
+          "x": 1408,
+          "y": 609,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -2064,8 +2090,8 @@
           "name": "HighSpikes",
           "persistentUuid": "bae21952-f617-4ff0-8eab-103df594194d",
           "width": 254,
-          "x": 20306,
-          "y": -872,
+          "x": 20304,
+          "y": -869,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -2149,8 +2175,8 @@
           "name": "HighSpikes",
           "persistentUuid": "7450751a-47a5-4ded-923a-d38469300754",
           "width": 254,
-          "x": 20747,
-          "y": -850,
+          "x": 20739,
+          "y": -860,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -3320,16 +3346,6 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "WallJumpDirection",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "Variable",
-              "type": "number",
-              "value": 0
-            },
-            {
               "name": "JumpCount",
               "type": "number",
               "value": 0
@@ -3343,11 +3359,22 @@
               "name": "Ammo",
               "type": "number",
               "value": 16
+            },
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 15
+            },
+            {
+              "name": "Maximum_Health",
+              "type": "number",
+              "value": 15
             }
           ],
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.5,
@@ -3356,7 +3383,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": 5,
+              "BulletSpeedVariance": -1,
               "AmmoQuantity": 0,
               "ShotsPerReload": 8,
               "ReloadDuration": 1,
@@ -3378,12 +3405,11 @@
               "RandomizedAngle": 0
             },
             {
-              "isFolded": true,
               "name": "Health",
               "type": "Health::Health",
-              "Health": 5,
+              "Health": 15,
               "CurrentHealth": 0,
-              "MaxHealth": 5,
+              "MaxHealth": 15,
               "DamageCooldown": 0,
               "AllowOverHealing": false,
               "IsHealthJustDamaged": false,
@@ -6151,7 +6177,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -6487,45 +6521,16 @@
             {
               "name": "Health",
               "type": "number",
-              "value": 25
+              "value": 15
             },
             {
-              "name": "MaxHealth",
+              "name": "Full_Width_of_Bar",
               "type": "number",
-              "value": 25
+              "value": 78
             }
           ],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 100,
-              "CurrentHealth": 0,
-              "MaxHealth": 100,
-              "DamageCooldown": 0,
-              "AllowOverHealing": false,
-              "IsHealthJustDamaged": false,
-              "DamageToBeApplied": 0,
-              "HitAtLeastOnce": false,
-              "ChanceToDodge": 0,
-              "IsJustDodged": false,
-              "HealToBeApplied": 0,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 2.0247e-320,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ShieldDamageTaken": 2.0247e-320,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0
-            }
-          ]
+          "behaviors": []
         },
         {
           "assetStoreId": "",
@@ -6568,6 +6573,66 @@
             "characterSize": 70,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "b9c7dea224a0b7ecf6d781229de6dc63e728a91488a2035afa17e737aa51a4c6",
+          "name": "Enemy_Bullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bullet 5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6590,6 +6655,9 @@
           {
             "folderName": "Weapons",
             "children": [
+              {
+                "objectName": "Enemy_Bullet"
+              },
               {
                 "objectName": "Bullets"
               },
@@ -7056,14 +7124,6 @@
           "actions": [
             {
               "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "FireBullet::FireBullet::FireTowardPosition"
               },
               "parameters": [
@@ -7105,7 +7165,7 @@
                 "FireBullet",
                 "Low_Tier_Enemy.BoundingBoxCenterX()",
                 "Low_Tier_Enemy.BoundingBoxCenterY()",
-                "Bullets",
+                "Enemy_Bullet",
                 "Agent_Stickman.X()",
                 "Agent_Stickman.Y()",
                 "100",
@@ -7139,7 +7199,7 @@
                 "FireBullet",
                 "Medium_Tier_Enemy.BoundingBoxCenterX()",
                 "Medium_Tier_Enemy.BoundingBoxCenterY()",
-                "Bullets",
+                "Enemy_Bullet",
                 "Agent_Stickman.X()",
                 "Agent_Stickman.Y()",
                 "200",
@@ -7173,7 +7233,7 @@
                 "FireBullet",
                 "High_Tier_Enemy.BoundingBoxCenterX()",
                 "High_Tier_Enemy.BoundingBoxCenterY()",
-                "Bullets",
+                "Enemy_Bullet",
                 "Agent_Stickman.X()",
                 "Agent_Stickman.Y()",
                 "300",
@@ -7207,7 +7267,7 @@
                 "FireBullet",
                 "Boss.BoundingBoxCenterX()",
                 "Boss.BoundingBoxCenterY()",
-                "Bullets",
+                "Enemy_Bullet",
                 "Agent_Stickman.X()",
                 "Agent_Stickman.Y()",
                 "400",
@@ -7221,7 +7281,225 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Collision",
+          "name": "Drops",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "Health_Pick_Up",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Heal"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "Health",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Health_Pick_Up",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "HealthBar",
+                "Resizable",
+                "+",
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "Ammo",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ammo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::IncreaseAmmo"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "FireBullet",
+                "8",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Shotgun",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "Shotgun",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::SetBulletQuantityOp"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "FireBullet",
+                "=",
+                "6",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "\"ShotgunTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::SetUnlimitedAmmo"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "FireBullet",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Shotgun",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "\"ShotgunTimer\"",
+                ">",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::SetBulletQuantityOp"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "FireBullet",
+                "=",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::SetUnlimitedAmmo"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "FireBullet",
+                "no",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Taking Damage/Deaths",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -7262,8 +7540,8 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "Enemy_Bullet",
                 "Agent_Stickman",
-                "Health_Pick_Up",
                 "",
                 "",
                 ""
@@ -7273,22 +7551,24 @@
           "actions": [
             {
               "type": {
-                "value": "Health::Health::Heal"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Agent_Stickman",
                 "Health",
-                "2",
-                ""
+                "-",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Health_Pick_Up",
-                ""
+                "HealthBar",
+                "Full_Width_of_Bar",
+                "=",
+                "HealthBar.Full_Width_of_Bar*((Agent_Stickman.Health)/(Agent_Stickman.Maximum_Health))"
               ]
             }
           ]
@@ -7298,26 +7578,22 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Bullets",
                 "Agent_Stickman",
-                "",
-                "",
-                ""
+                "Health",
+                "=",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Health::Health::SetHealth"
+                "value": "Quit"
               },
               "parameters": [
-                "Agent_Stickman",
-                "Health",
-                "-1",
                 ""
               ]
             }
@@ -7476,168 +7752,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Shotgun",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "Shotgun",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::SetBulletQuantityOp"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "FireBullet",
-                "=",
-                "6",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "\"ShotgunTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::SetUnlimitedAmmo"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "FireBullet",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Shotgun",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "\"ShotgunTimer\"",
-                ">",
-                "15"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::SetBulletQuantityOp"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "FireBullet",
-                "=",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::SetUnlimitedAmmo"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "FireBullet",
-                "no",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Ammo Counter ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "Ammo",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Ammo",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::IncreaseAmmo"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "FireBullet",
-                "8",
-                ""
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7669,6 +7788,32 @@
                 "Text",
                 "=",
                 "ToString(Agent_Stickman.FireBullet::AmmoQuantity())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Enemy_Bullet",
+                "<",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemy_Bullet",
+                ""
               ]
             }
           ]
@@ -7729,7 +7874,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
