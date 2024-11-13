@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 216,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1490,7 +1490,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0973679695630116,
+        "zoomFactor": 0.43357743047026304,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1533,15 +1533,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 217,
+          "depth": 1,
+          "height": 121,
           "keepRatio": true,
           "layer": "",
           "name": "Ammo",
           "persistentUuid": "63445782-1c2d-41b0-bb7f-670c0fe318ba",
-          "width": 193,
-          "x": 13382,
-          "y": -15,
+          "width": 108,
+          "x": 13492,
+          "y": 61,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -1588,8 +1588,8 @@
           "name": "Bullet_Counter",
           "persistentUuid": "9a8e68a9-964a-47d5-8179-7eb11a864423",
           "width": 0,
-          "x": 41,
-          "y": 62,
+          "x": 45,
+          "y": 65,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2795,8 +2795,8 @@
           "name": "StonePlatform",
           "persistentUuid": "ad09f2ed-f565-452d-89c2-0de228dd48d1",
           "width": 459,
-          "x": 31530,
-          "y": -1317,
+          "x": 31528,
+          "y": -1316,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2930,8 +2930,8 @@
           "name": "Ammo_Counter",
           "persistentUuid": "6e240596-5358-4be9-8aa2-572d936e675b",
           "width": 0,
-          "x": 98,
-          "y": 62,
+          "x": 107,
+          "y": 65,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -2967,6 +2967,158 @@
           "x": 26,
           "y": 14,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Slash",
+          "persistentUuid": "d1db6a94-5cb6-448f-9a01-113cee47761c",
+          "width": 0,
+          "x": 87,
+          "y": 67,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 271,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shotgun",
+          "persistentUuid": "2dbbe936-437d-42d3-a94a-23794c483fa1",
+          "width": 271,
+          "x": 34626,
+          "y": -1240,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 159,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "fe65f7ee-e7d8-4368-b033-6121f6ea1973",
+          "width": 159,
+          "x": 32753,
+          "y": -1177,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Health_Pick_Up",
+          "persistentUuid": "e1674823-1758-4db2-8191-3e65de73f016",
+          "width": 157,
+          "x": 31851,
+          "y": -1185,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 335,
+          "customSize": true,
+          "depth": 1,
+          "height": 259,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Health_Pick_Up",
+          "persistentUuid": "71e5e8ee-9f26-4cfe-8d30-c4894bafe976",
+          "width": 259,
+          "x": 8966,
+          "y": 334,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 116,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shotgun",
+          "persistentUuid": "b4de039f-129d-412f-b911-1f005d5efbe8",
+          "width": 116,
+          "x": 16529,
+          "y": 31,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 359,
+          "customSize": true,
+          "depth": 1,
+          "height": 166,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Health_Pick_Up",
+          "persistentUuid": "d6c1cf64-f37d-41ce-94aa-dc7b49c0a694",
+          "width": 166,
+          "x": 17884,
+          "y": -1863,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 121,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "e27b2990-6e34-4c0d-859d-a570eab6a3ff",
+          "width": 108,
+          "x": 23343,
+          "y": -2071,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 116,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shotgun",
+          "persistentUuid": "777a1243-8cfd-418f-9edf-7dba37e3257d",
+          "width": 116,
+          "x": 22936,
+          "y": -2331,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3085,9 +3237,9 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": 0,
+              "BulletSpeedVariance": 5,
               "AmmoQuantity": 0,
-              "ShotsPerReload": 11,
+              "ShotsPerReload": 8,
               "ReloadDuration": 1,
               "MaxAmmo": 48,
               "ShotsBeforeNextReload": 0,
@@ -5281,7 +5433,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "8/",
+          "string": "8",
           "font": "",
           "textAlignment": "left",
           "characterSize": 70,
@@ -5304,7 +5456,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "8/",
+            "text": "8",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -6134,6 +6286,48 @@
               "PercentDamageReduction": 0
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Slash",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "/",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "/",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -6212,6 +6406,9 @@
                   },
                   {
                     "objectName": "Bullet_Counter"
+                  },
+                  {
+                    "objectName": "Slash"
                   },
                   {
                     "objectName": "Ammo_Counter"
@@ -7039,7 +7236,36 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Bullet_Counter",
+                "Text",
+                "=",
+                "ToString(Agent_Stickman.FireBullet::ShotsBeforeNextReload())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Ammo_Counter",
+                "Text",
+                "=",
+                "ToString(Agent_Stickman.FireBullet::AmmoQuantity())"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
