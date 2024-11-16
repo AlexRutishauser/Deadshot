@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -29,7 +29,35 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -1479,6 +1507,50 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/f8c97f4f344ceda06e1b53c65b15e33b24c6256e0991bc881eb7f2317b89ba57_Bullet 5.png",
           "name": "Bullet 5.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+          "name": "Flat Bar Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "Flat Bar White Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bar",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cross.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cross.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1488,13 +1560,7 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "name": "GameTime",
-      "type": "number",
-      "value": 0
-    }
-  ],
+  "variables": [],
   "layouts": [
     {
       "b": 209,
@@ -1516,7 +1582,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.787629010167426,
+        "zoomFactor": 0.3325387091250996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2965,40 +3031,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 4,
-          "height": 55,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "HealthBarBox",
-          "persistentUuid": "396380e2-0b93-46df-bbf1-30759d297a2e",
-          "width": 467,
-          "x": 14,
-          "y": 9,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 6,
-          "height": 44,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "HealthBar",
-          "persistentUuid": "7037adce-5c84-4578-a474-ce13c6fcc04e",
-          "width": 443,
-          "x": 26,
-          "y": 14,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -3267,6 +3299,71 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 326,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Healthbar",
+          "persistentUuid": "6bd8adfd-fc0f-4857-8099-9b049969805a",
+          "width": 411,
+          "x": 5,
+          "y": -96,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Cross",
+          "persistentUuid": "dd9547f8-e7e2-4d1c-b9ab-16cad72b313c",
+          "width": 0,
+          "x": 352,
+          "y": 64,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Cross",
+          "persistentUuid": "58d7048a-c6b6-4724-aa47-e64c34d306d7",
+          "width": 0,
+          "x": 384,
+          "y": 64,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Cross",
+          "persistentUuid": "c236d413-7b87-4acf-a68f-d9ae7ddc89c9",
+          "width": 0,
+          "x": 640,
+          "y": 64,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3363,12 +3460,7 @@
             {
               "name": "Health",
               "type": "number",
-              "value": 15
-            },
-            {
-              "name": "Maximum_Health",
-              "type": "number",
-              "value": 15
+              "value": 450
             }
           ],
           "effects": [],
@@ -3403,34 +3495,6 @@
               "ExponentialCoolingRate": 0.3,
               "BulletLayer": "",
               "RandomizedAngle": 0
-            },
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 15,
-              "CurrentHealth": 0,
-              "MaxHealth": 15,
-              "DamageCooldown": 0,
-              "AllowOverHealing": false,
-              "IsHealthJustDamaged": false,
-              "DamageToBeApplied": 0,
-              "HitAtLeastOnce": false,
-              "ChanceToDodge": 0,
-              "IsJustDodged": false,
-              "HealToBeApplied": 0,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 2.0247e-320,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ShieldDamageTaken": 2.0247e-320,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0
             },
             {
               "isFolded": true,
@@ -6490,49 +6554,6 @@
           }
         },
         {
-          "assetStoreId": "138ee716846635e3e0e5ab7b63752d1a36754f1ac874c70e1b5fa372d5a05474",
-          "bottomMargin": 6,
-          "height": 15,
-          "leftMargin": 11,
-          "name": "HealthBarBox",
-          "rightMargin": 9,
-          "texture": "Health Bar Box.png",
-          "tiled": true,
-          "topMargin": 6,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 96,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "0ad03c70a5c5284cc85170b3852e425db0f4deed8225b1b10722ef26902186d8",
-          "bottomMargin": 2,
-          "height": 9,
-          "leftMargin": 3,
-          "name": "HealthBar",
-          "rightMargin": 3,
-          "texture": "Health Bar.png2",
-          "tiled": true,
-          "topMargin": 4,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 78,
-          "variables": [
-            {
-              "name": "Health",
-              "type": "number",
-              "value": 15
-            },
-            {
-              "name": "Full_Width_of_Bar",
-              "type": "number",
-              "value": 78
-            }
-          ],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "assetStoreId": "",
           "bold": true,
           "italic": false,
@@ -6633,6 +6654,132 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Healthbar",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "BarWidth",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bar",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 37,
+                            "y": 106
+                          },
+                          {
+                            "x": 201,
+                            "y": 106
+                          },
+                          {
+                            "x": 201,
+                            "y": 116
+                          },
+                          {
+                            "x": 37,
+                            "y": 116
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Cross",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Cross.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3472,
+                            "y": 2772
+                          },
+                          {
+                            "x": 4228,
+                            "y": 2772
+                          },
+                          {
+                            "x": 4228,
+                            "y": 3780
+                          },
+                          {
+                            "x": 3472,
+                            "y": 3780
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6701,10 +6848,10 @@
             "folderName": "HUD Elements",
             "children": [
               {
-                "objectName": "HealthBar"
+                "objectName": "Healthbar"
               },
               {
-                "objectName": "HealthBarBox"
+                "objectName": "Cross"
               },
               {
                 "folderName": "Text",
@@ -6813,6 +6960,23 @@
                 "Text",
                 "=",
                 "\"Time : \" + ToString(round(TimerElapsedTime(\"GameTime\")))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "Healthbar",
+                "Resizable",
+                "=",
+                "Agent_Stickman.Health"
               ]
             }
           ]
@@ -7168,7 +7332,7 @@
                 "Enemy_Bullet",
                 "Agent_Stickman.X()",
                 "Agent_Stickman.Y()",
-                "100",
+                "50",
                 ""
               ]
             }
@@ -7202,7 +7366,7 @@
                 "Enemy_Bullet",
                 "Agent_Stickman.X()",
                 "Agent_Stickman.Y()",
-                "200",
+                "100",
                 ""
               ]
             }
@@ -7236,7 +7400,7 @@
                 "Enemy_Bullet",
                 "Agent_Stickman.X()",
                 "Agent_Stickman.Y()",
-                "300",
+                "150",
                 ""
               ]
             }
@@ -7270,7 +7434,7 @@
                 "Enemy_Bullet",
                 "Agent_Stickman.X()",
                 "Agent_Stickman.Y()",
-                "400",
+                "250",
                 ""
               ]
             }
@@ -7301,20 +7465,48 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::Width"
+              },
+              "parameters": [
+                "Healthbar",
+                "Resizable",
+                ">=",
+                "Healthbar.BarWidth"
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Health::Health::Heal"
+                "value": "Delete"
+              },
+              "parameters": [
+                "Health_Pick_Up",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
               },
               "parameters": [
                 "Agent_Stickman",
-                "Health",
-                "2",
+                "Health_Pick_Up",
+                "",
+                "",
                 ""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Delete"
@@ -7326,13 +7518,13 @@
             },
             {
               "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "HealthBar",
-                "Resizable",
+                "Agent_Stickman",
+                "Health",
                 "+",
-                "20"
+                "1000"
               ]
             }
           ]
@@ -7559,17 +7751,6 @@
                 "-",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "HealthBar",
-                "Full_Width_of_Bar",
-                "=",
-                "HealthBar.Full_Width_of_Bar*((Agent_Stickman.Health)/(Agent_Stickman.Maximum_Health))"
-              ]
             }
           ]
         },
@@ -7794,29 +7975,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Enemy_Bullet",
-                "<",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Enemy_Bullet",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
