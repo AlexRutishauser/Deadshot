@@ -1551,6 +1551,33 @@
         "name": "assets\\Cross.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player Health Bar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player Health Bar2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Health Bar Border2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar Border2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Health Bar Border3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar Border3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1573,7 +1600,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -1581,8 +1608,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.3325387091250996,
+        "snap": false,
+        "zoomFactor": 1.2952916551236808,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3310,8 +3337,8 @@
           "name": "Healthbar",
           "persistentUuid": "6bd8adfd-fc0f-4857-8099-9b049969805a",
           "width": 411,
-          "x": 5,
-          "y": -96,
+          "x": 422,
+          "y": -423,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -3319,15 +3346,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 168,
           "keepRatio": true,
-          "layer": "UI",
-          "name": "Cross",
-          "persistentUuid": "dd9547f8-e7e2-4d1c-b9ab-16cad72b313c",
-          "width": 0,
-          "x": 352,
-          "y": 64,
+          "layer": "",
+          "name": "Health_Bar_Border",
+          "persistentUuid": "55be21e9-40f0-4e53-9d55-95ffd8361e49",
+          "width": 313,
+          "x": 4,
+          "y": -38,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -3335,32 +3363,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 148,
           "keepRatio": true,
-          "layer": "UI",
-          "name": "Cross",
-          "persistentUuid": "58d7048a-c6b6-4724-aa47-e64c34d306d7",
-          "width": 0,
-          "x": 384,
-          "y": 64,
+          "layer": "",
+          "name": "Player_HealthBar",
+          "persistentUuid": "6728a438-7d25-4492-9e30-147ec6f009ea",
+          "width": 311,
+          "x": 5,
+          "y": -29,
           "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Cross",
-          "persistentUuid": "c236d413-7b87-4acf-a68f-d9ae7ddc89c9",
-          "width": 0,
-          "x": 640,
-          "y": 64,
-          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6780,6 +6793,126 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Player_HealthBar",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Player Health Bar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Player Health Bar2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 448,
+                            "y": 5908
+                          },
+                          {
+                            "x": 13944,
+                            "y": 5908
+                          },
+                          {
+                            "x": 13944,
+                            "y": 7392
+                          },
+                          {
+                            "x": 448,
+                            "y": 7392
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Health_Bar_Border",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Health Bar Border3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 392,
+                            "y": 5852
+                          },
+                          {
+                            "x": 14028,
+                            "y": 5852
+                          },
+                          {
+                            "x": 14028,
+                            "y": 7448
+                          },
+                          {
+                            "x": 392,
+                            "y": 7448
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6847,6 +6980,12 @@
           {
             "folderName": "HUD Elements",
             "children": [
+              {
+                "objectName": "Health_Bar_Border"
+              },
+              {
+                "objectName": "Player_HealthBar"
+              },
               {
                 "objectName": "Healthbar"
               },
