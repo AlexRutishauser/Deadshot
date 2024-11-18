@@ -1649,7 +1649,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488504,
+        "zoomFactor": 0.3010461197182677,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1718,22 +1718,6 @@
           "x": 1453,
           "y": 33,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "NewText",
-          "persistentUuid": "982750ae-0ca9-4ee2-9617-8b2ee6836a36",
-          "width": 0,
-          "x": 104,
-          "y": 912,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3380,6 +3364,22 @@
           "x": 30,
           "y": -77,
           "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ShotgunCountdown",
+          "persistentUuid": "233e1561-91aa-48c5-9577-6cdba985d137",
+          "width": 0,
+          "x": 523,
+          "y": 30,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5801,6 +5801,9 @@
               "PercentDamageReduction": 0
             },
             {
+              "isFolded": true,
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -5810,14 +5813,14 @@
               "extraBorder": 0,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
-              "isFolded": true,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             },
             {
+              "isFolded": true,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -5825,15 +5828,12 @@
               "deceleration": 1500,
               "gravity": 1000,
               "ignoreDefaultControls": false,
-              "isFolded": true,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -5917,6 +5917,16 @@
           "behaviors": [
             {
               "isFolded": true,
+              "name": "AnimatedBackAndForthMirroredMovement",
+              "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
+              "Animation": "Animation",
+              "Flippable": "Flippable",
+              "SpeedX": 200,
+              "DistanceX": 300,
+              "InitialX": 0
+            },
+            {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -5947,6 +5957,7 @@
               "RandomizedAngle": 0
             },
             {
+              "isFolded": true,
               "name": "Health",
               "type": "Health::Health",
               "Health": 150,
@@ -5975,6 +5986,45 @@
               "PercentDamageReduction": 0
             },
             {
+              "isFolded": true,
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            },
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "isFolded": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "isFolded": true,
               "name": "ThreeDFlip",
               "type": "ThreeDFlip::ThreeDFlip",
               "Resizable": "Resizable",
@@ -6052,6 +6102,16 @@
           "behaviors": [
             {
               "isFolded": true,
+              "name": "AnimatedBackAndForthMirroredMovement",
+              "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
+              "Animation": "Animation",
+              "Flippable": "Flippable",
+              "SpeedX": 200,
+              "DistanceX": 300,
+              "InitialX": 0
+            },
+            {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -6082,6 +6142,7 @@
               "RandomizedAngle": 0
             },
             {
+              "isFolded": true,
               "name": "Health",
               "type": "Health::Health",
               "Health": 175,
@@ -6110,6 +6171,45 @@
               "PercentDamageReduction": 0
             },
             {
+              "isFolded": true,
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            },
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "isFolded": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "isFolded": true,
               "name": "ThreeDFlip",
               "type": "ThreeDFlip::ThreeDFlip",
               "Resizable": "Resizable",
@@ -6477,6 +6577,16 @@
           "behaviors": [
             {
               "isFolded": true,
+              "name": "AnimatedBackAndForthMirroredMovement",
+              "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
+              "Animation": "Animation",
+              "Flippable": "Flippable",
+              "SpeedX": 200,
+              "DistanceX": 300,
+              "InitialX": 0
+            },
+            {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -6507,6 +6617,7 @@
               "RandomizedAngle": 0
             },
             {
+              "isFolded": true,
               "name": "Health",
               "type": "Health::Health",
               "Health": 200,
@@ -6533,6 +6644,43 @@
               "ShieldDamageTaken": 2.0247e-320,
               "FlatDamageReduction": 0,
               "PercentDamageReduction": 0
+            },
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "isFolded": true,
+              "maxSpeed": 200,
+              "name": "Pathfinding",
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            },
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
             },
             {
               "isFolded": true,
@@ -6837,6 +6985,48 @@
               }
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "ShotgunCountdown",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Shotgun Timer",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Shotgun Timer",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -6931,6 +7121,9 @@
           },
           {
             "objectName": "HighSpikes"
+          },
+          {
+            "objectName": "ShotgunCountdown"
           }
         ]
       },
@@ -6997,6 +7190,14 @@
                 "",
                 "",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShotgunCountdown"
               ]
             }
           ]
@@ -7602,7 +7803,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shotgun",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7670,6 +7870,35 @@
                     "Shotgun",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShotgunCountdown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ShotgunCountdown",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ShotgunCountdown",
+                    "Text",
+                    "=",
+                    "\"Shotgun Remaining : \" + ToString(round(abs(TimerElapsedTime(\"ShotgunCountdown\")-15)))"
+                  ]
                 }
               ]
             },
@@ -7710,6 +7939,23 @@
                     "FireBullet",
                     "no",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ShotgunCountdown"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShotgunCountdown\""
                   ]
                 }
               ]
@@ -7849,7 +8095,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Double Jumping",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7879,14 +8124,68 @@
                     "0"
                   ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "JumpCount",
+                    "<",
+                    "2"
+                  ]
+                }
               ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsJumping"
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Agent_Stickman",
+                        "Animation",
+                        "=",
+                        "\"Double Jump\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SetCanJump"
                       },
                       "parameters": [
                         "Agent_Stickman",
@@ -7895,69 +8194,13 @@
                     },
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "SetNumberObjectVariable"
                       },
                       "parameters": [
                         "Agent_Stickman",
                         "JumpCount",
-                        "<",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SetCanJump"
-                          },
-                          "parameters": [
-                            "Agent_Stickman",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Agent_Stickman",
-                            "JumpCount",
-                            "+",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Agent_Stickman",
-                            "Animation",
-                            "=",
-                            "\"Double Jump\""
-                          ]
-                        }
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -8050,51 +8293,173 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Behavior",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "events": [
             {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Agent_Stickman",
-                "Low_Tier_Enemy",
-                "400",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Low_Tier_Enemy",
-                "AnimatedBackAndForthMirroredMovement",
-                "yes"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "Low_Tier_Enemy",
+                    "400",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Low_Tier_Enemy",
+                    "AnimatedBackAndForthMirroredMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Low_Tier_Enemy",
+                    "Pathfinding",
+                    "",
+                    "Agent_Stickman.X()",
+                    "Agent_Stickman.Y()"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Low_Tier_Enemy",
-                "Pathfinding",
-                "",
-                "Agent_Stickman.X()",
-                "Agent_Stickman.Y()"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "Medium_Tier_Enemy",
+                    "400",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Medium_Tier_Enemy",
+                    "AnimatedBackAndForthMirroredMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Medium_Tier_Enemy",
+                    "Pathfinding",
+                    "",
+                    "Agent_Stickman.X()",
+                    "Agent_Stickman.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "High_Tier_Enemy",
+                    "400",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Low_Tier_Enemy",
+                    "AnimatedBackAndForthMirroredMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "High_Tier_Enemy",
+                    "Pathfinding",
+                    "",
+                    "Agent_Stickman.X()",
+                    "Agent_Stickman.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "Boss",
+                    "400",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Low_Tier_Enemy",
+                    "AnimatedBackAndForthMirroredMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Pathfinding",
+                    "",
+                    "Agent_Stickman.X()",
+                    "Agent_Stickman.Y()"
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "layers": [
