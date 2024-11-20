@@ -1717,8 +1717,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Start_32Screen",
+      "name": "Start Screen",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -1734,7 +1734,307 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.150026792550269,
+        "zoomFactor": 0.3645833333333333,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deadshot_Text",
+          "persistentUuid": "2516fd1a-6f13-405c-a3de-c18c2be8aff4",
+          "width": 0,
+          "x": 617,
+          "y": 374,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 108,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StartButton",
+          "persistentUuid": "e42436d2-d8a4-444c-8f96-e097577b36e7",
+          "width": 304,
+          "x": 778,
+          "y": 536,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Deadshot_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Deadshot!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 125,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Deadshot!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 125,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+          "name": "StartButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 6,
+            "BottomPadding": 24,
+            "TopPadding": 20,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 22,
+              "height": 64,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Black Decorated Button_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 22,
+              "height": 64,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Black Decorated Button_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Start",
+              "font": "ArchitectsDaughter.ttf",
+              "textAlignment": "center",
+              "characterSize": 66,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Start",
+                "font": "ArchitectsDaughter.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 66,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 64,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Black Decorated Button_Pressed.png",
+              "tiled": true,
+              "topMargin": 22,
+              "width": 192
+            }
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Deadshot_Text"
+          },
+          {
+            "objectName": "StartButton"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "StartButton",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Screen\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Game_32Screen",
+      "name": "Game Screen",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.8141881203710672,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1761,21 +2061,21 @@
           "angle": 0,
           "customSize": true,
           "depth": 4,
-          "height": 122,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "Agent_Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
-          "width": 122,
-          "x": 251,
-          "y": 706,
+          "width": 128,
+          "x": 331,
+          "y": 704,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 345,
+          "angle": 360,
           "customSize": true,
           "depth": 1,
           "height": 109,
@@ -1784,8 +2084,8 @@
           "name": "Ammo",
           "persistentUuid": "63445782-1c2d-41b0-bb7f-670c0fe318ba",
           "width": 98,
-          "x": 13762,
-          "y": -75,
+          "x": 14860,
+          "y": -1197,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3428,8 +3728,8 @@
           "name": "ShotgunCountdown",
           "persistentUuid": "233e1561-91aa-48c5-9577-6cdba985d137",
           "width": 0,
-          "x": 523,
-          "y": 30,
+          "x": 544,
+          "y": 32,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -3514,7 +3814,7 @@
           "persistentUuid": "a60a48c3-be7f-471e-9b83-2eb790914d3c",
           "width": 188,
           "x": 14823,
-          "y": -1124,
+          "y": -1120,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3757,7 +4057,6 @@
           "effects": [],
           "behaviors": [
             {
-              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.25,
@@ -3770,11 +4069,11 @@
               "AmmoQuantity": 0,
               "ShotsPerReload": 8,
               "ReloadDuration": 1,
-              "MaxAmmo": 48,
+              "MaxAmmo": 64,
               "ShotsBeforeNextReload": 0,
               "TotalShotsFired": 0,
               "TotalBulletsCreated": 0,
-              "StartingAmmo": 24,
+              "StartingAmmo": 48,
               "TotalReloadsCompleted": 0,
               "UnlimitedAmmo": false,
               "ReloadInProgress": false,
@@ -3844,6 +4143,7 @@
               "yGrabOffset": 0
             },
             {
+              "isFolded": true,
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
               "LeftwardSpeed": 2,
@@ -3896,6 +4196,7 @@
               "IsCalledManually": false
             },
             {
+              "isFolded": true,
               "name": "SmoothPlatformerCamera",
               "type": "SmoothCamera::SmoothPlatformerCamera",
               "PlatformerCharacter": "PlatformerObject",
@@ -5992,15 +6293,22 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Low_Tier_Enemy",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 100
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "AnimatedBackAndForthMirroredMovement",
               "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
               "Animation": "Animation",
@@ -6010,6 +6318,7 @@
               "InitialX": 0
             },
             {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -6018,7 +6327,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": -250,
+              "BulletSpeedVariance": -500,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
               "ReloadDuration": 1,
@@ -6038,35 +6347,6 @@
               "ExponentialCoolingRate": 0.3,
               "BulletLayer": "",
               "RandomizedAngle": 0
-            },
-            {
-              "isFolded": true,
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 100,
-              "CurrentHealth": 0,
-              "MaxHealth": 100,
-              "DamageCooldown": 0,
-              "AllowOverHealing": false,
-              "IsHealthJustDamaged": false,
-              "DamageToBeApplied": 0,
-              "HitAtLeastOnce": false,
-              "ChanceToDodge": 0,
-              "IsJustDodged": false,
-              "HealToBeApplied": 0,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 2.0247e-320,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ShieldDamageTaken": 2.0247e-320,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0
             },
             {
               "isFolded": true,
@@ -6150,20 +6430,40 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 544,
-                            "y": 352
+                            "x": 540,
+                            "y": 706
                           },
                           {
-                            "x": 992,
-                            "y": 352
+                            "x": 543.5,
+                            "y": 576
+                          },
+                          {
+                            "x": 694,
+                            "y": 586.5
+                          },
+                          {
+                            "x": 740,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 856.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 986.5,
+                            "y": 350.5
                           },
                           {
                             "x": 992,
                             "y": 1024
                           },
                           {
-                            "x": 544,
+                            "x": 640,
                             "y": 1024
+                          },
+                          {
+                            "x": 833.5,
+                            "y": 727.5
                           }
                         ]
                       ]
@@ -6180,7 +6480,13 @@
           "name": "Medium_Tier_Enemy",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 225
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -6202,7 +6508,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": -250,
+              "BulletSpeedVariance": -500,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
               "ReloadDuration": 1,
@@ -6222,35 +6528,6 @@
               "ExponentialCoolingRate": 0.3,
               "BulletLayer": "",
               "RandomizedAngle": 0
-            },
-            {
-              "isFolded": true,
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 150,
-              "CurrentHealth": 0,
-              "MaxHealth": 150,
-              "DamageCooldown": 0,
-              "AllowOverHealing": false,
-              "IsHealthJustDamaged": false,
-              "DamageToBeApplied": 0,
-              "HitAtLeastOnce": false,
-              "ChanceToDodge": 0,
-              "IsJustDodged": false,
-              "HealToBeApplied": 0,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 2.0247e-320,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ShieldDamageTaken": 2.0247e-320,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0
             },
             {
               "isFolded": true,
@@ -6364,7 +6641,13 @@
           "name": "High_Tier_Enemy",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 405
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -6378,6 +6661,7 @@
               "InitialX": 0
             },
             {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -6386,7 +6670,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": -250,
+              "BulletSpeedVariance": -500,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
               "ReloadDuration": 1,
@@ -6406,34 +6690,6 @@
               "ExponentialCoolingRate": 0.3,
               "BulletLayer": "",
               "RandomizedAngle": 0
-            },
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 175,
-              "CurrentHealth": 0,
-              "MaxHealth": 175,
-              "DamageCooldown": 0,
-              "AllowOverHealing": false,
-              "IsHealthJustDamaged": false,
-              "DamageToBeApplied": 0,
-              "HitAtLeastOnce": false,
-              "ChanceToDodge": 0,
-              "IsJustDodged": false,
-              "HealToBeApplied": 0,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 2.0247e-320,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ShieldDamageTaken": 2.0247e-320,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0
             },
             {
               "isFolded": true,
@@ -6619,6 +6875,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Shotgun",
+          "preScale": 0.1,
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -6837,7 +7094,13 @@
           "name": "Boss",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 2280
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -6881,7 +7144,6 @@
               "RandomizedAngle": 0
             },
             {
-              "isFolded": true,
               "name": "Health",
               "type": "Health::Health",
               "Health": 200,
@@ -7885,6 +8147,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7931,7 +8194,7 @@
                   "parameters": [
                     "Agent_Stickman",
                     "Low_Tier_Enemy",
-                    "300",
+                    "800",
                     ""
                   ]
                 }
@@ -7948,7 +8211,7 @@
                     "Low_Tier_Enemy.BoundingBoxCenterY()",
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
-                    "Agent_Stickman.Y()",
+                    "Agent_Stickman.Y()+50",
                     "15",
                     ""
                   ]
@@ -7965,7 +8228,7 @@
                   "parameters": [
                     "Agent_Stickman",
                     "Medium_Tier_Enemy",
-                    "300",
+                    "800",
                     ""
                   ]
                 }
@@ -7982,7 +8245,7 @@
                     "Medium_Tier_Enemy.BoundingBoxCenterY()",
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
-                    "Agent_Stickman.Y()",
+                    "Agent_Stickman.Y()+50",
                     "30",
                     ""
                   ]
@@ -7999,7 +8262,7 @@
                   "parameters": [
                     "Agent_Stickman",
                     "High_Tier_Enemy",
-                    "300",
+                    "800",
                     ""
                   ]
                 }
@@ -8016,7 +8279,7 @@
                     "High_Tier_Enemy.BoundingBoxCenterY()",
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
-                    "Agent_Stickman.Y()",
+                    "Agent_Stickman.Y()+50",
                     "45",
                     ""
                   ]
@@ -8033,7 +8296,7 @@
                   "parameters": [
                     "Agent_Stickman",
                     "Boss",
-                    "300",
+                    "800",
                     ""
                   ]
                 }
@@ -8050,7 +8313,7 @@
                     "Boss.BoundingBoxCenterY()",
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
-                    "Agent_Stickman.Y()",
+                    "Agent_Stickman.Y()+50",
                     "70",
                     ""
                   ]
@@ -8059,115 +8322,8 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    "Low_Tier_Enemy",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    "Medium_Tier_Enemy",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    "High_Tier_Enemy",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    ""
-                  ]
-                }
-              ]
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -8391,17 +8547,6 @@
                     "ShotgunCountdown",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "ShotgunCountdown",
-                    "Text",
-                    "=",
-                    "\"Shotgun Remaining : \" + ToString(round(abs(TimerElapsedTime(\"ShotgunCountdown\")-15)))"
-                  ]
                 }
               ]
             },
@@ -8462,6 +8607,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ShotgunCountdown",
+                    "Text",
+                    "=",
+                    "\"Shotgun Remaining : \" + ToString(round(abs(TimerElapsedTime(\"ShotgunCountdown\")-15)))"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -8471,10 +8633,22 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Taking Damage/Deaths",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Stickman Death/Damage",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -8598,6 +8772,425 @@
                     "Animation",
                     "=",
                     "\"Fall\""
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Damage to Enemies",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "Low_Tier_Enemy",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Low_Tier_Enemy",
+                    "Health",
+                    "-",
+                    "45"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "Medium_Tier_Enemy",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Medium_Tier_Enemy",
+                    "Health",
+                    "-",
+                    "45"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "High_Tier_Enemy",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "High_Tier_Enemy",
+                    "Health",
+                    "-",
+                    "45"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Health",
+                    "-",
+                    "150"
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Bullet Collison with Level Platforms",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "StonePlatform",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "PurpleBackground",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy_Bullet",
+                    "PurpleBackground",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy_Bullet",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy_Bullet",
+                    "StonePlatform",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy_Bullet",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Enemy Deaths",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Low_Tier_Enemy",
+                    "Health",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Low_Tier_Enemy",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Medium_Tier_Enemy",
+                    "Health",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Medium_Tier_Enemy",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "High_Tier_Enemy",
+                    "Health",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "High_Tier_Enemy",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Health",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Victory Screen\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Boss",
+                    ""
                   ]
                 }
               ]
@@ -8976,47 +9569,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Final Boss Victory",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::Health"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Health",
-                    "=",
-                    "0",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Victory Screen\"",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         }
       ],
       "layers": [
@@ -9074,7 +9626,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -9638,7 +10190,7 @@
               },
               "parameters": [
                 "",
-                "\"Untitled scene\"",
+                "\"Game Screen\"",
                 ""
               ]
             }
@@ -10197,7 +10749,7 @@
               },
               "parameters": [
                 "",
-                "\"Untitled scene\"",
+                "\"Game Screen\"",
                 ""
               ]
             }
