@@ -1734,7 +1734,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26364576737710277,
+        "zoomFactor": 0.11131182576837974,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2240,9 +2240,9 @@
           "layer": "",
           "name": "StonePlatform",
           "persistentUuid": "1ed99196-17a2-464d-8288-d48ef3abf330",
-          "width": 188,
-          "x": 20976,
-          "y": -663,
+          "width": 151,
+          "x": 20995,
+          "y": -681,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2274,9 +2274,9 @@
           "layer": "",
           "name": "StonePlatform",
           "persistentUuid": "b27096ba-2107-4fdc-bb6c-177ee6cf36ae",
-          "width": 186,
-          "x": 21261,
-          "y": -658,
+          "width": 161,
+          "x": 21274,
+          "y": -670,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2309,8 +2309,8 @@
           "name": "StonePlatform",
           "persistentUuid": "ab7b7f63-d5a1-4fd6-b03a-2a10d9fcf67d",
           "width": 302,
-          "x": 21043,
-          "y": -581,
+          "x": 21042,
+          "y": -621,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2344,7 +2344,7 @@
           "persistentUuid": "7450751a-47a5-4ded-923a-d38469300754",
           "width": 254,
           "x": 21500,
-          "y": -695,
+          "y": -710,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -2359,9 +2359,9 @@
           "layer": "",
           "name": "StonePlatform",
           "persistentUuid": "32e07c63-ac41-4385-9816-44112cc390ce",
-          "width": 186,
-          "x": 21411,
-          "y": -653,
+          "width": 134,
+          "x": 21437,
+          "y": -679,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2377,8 +2377,8 @@
           "name": "StonePlatform",
           "persistentUuid": "5ae60203-0442-43e5-80d3-41b1d77e26a8",
           "width": 302,
-          "x": 21475,
-          "y": -577,
+          "x": 21472,
+          "y": -630,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2410,9 +2410,9 @@
           "layer": "",
           "name": "StonePlatform",
           "persistentUuid": "e470756e-140a-47fe-9f43-1e1d9fdf8d9a",
-          "width": 186,
-          "x": 21698,
-          "y": -663,
+          "width": 156,
+          "x": 21713,
+          "y": -678,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3743,13 +3743,13 @@
               "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
-              "FireCooldown": 0.5,
+              "FireCooldown": 0.25,
               "HasJustFired": false,
               "RotateBullet": true,
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": -1,
+              "BulletSpeedVariance": -1000,
               "AmmoQuantity": 0,
               "ShotsPerReload": 8,
               "ReloadDuration": 1,
@@ -3827,7 +3827,6 @@
               "yGrabOffset": 0
             },
             {
-              "isFolded": true,
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
               "LeftwardSpeed": 2,
@@ -3840,8 +3839,8 @@
               "FollowFreeAreaRight": 0,
               "FollowFreeAreaTop": 0,
               "FollowFreeAreaBottom": 0,
-              "CameraOffsetX": 500,
-              "CameraOffsetY": -150,
+              "CameraOffsetX": 0,
+              "CameraOffsetY": 0,
               "CameraDelay": 0,
               "ForecastTime": 0,
               "ForecastHistoryDuration": 0,
@@ -5986,7 +5985,6 @@
           "effects": [],
           "behaviors": [
             {
-              "isFolded": true,
               "name": "AnimatedBackAndForthMirroredMovement",
               "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
               "Animation": "Animation",
@@ -5996,7 +5994,6 @@
               "InitialX": 0
             },
             {
-              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -6005,7 +6002,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": 0,
+              "BulletSpeedVariance": -1000,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
               "ReloadDuration": 1,
@@ -6181,7 +6178,6 @@
               "InitialX": 0
             },
             {
-              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -6190,7 +6186,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": 0,
+              "BulletSpeedVariance": -1000,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
               "ReloadDuration": 1,
@@ -6366,7 +6362,6 @@
               "InitialX": 0
             },
             {
-              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -6375,7 +6370,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": 0,
+              "BulletSpeedVariance": -1000,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
               "ReloadDuration": 1,
@@ -6397,7 +6392,6 @@
               "RandomizedAngle": 0
             },
             {
-              "isFolded": true,
               "name": "Health",
               "type": "Health::Health",
               "Health": 175,
@@ -6841,7 +6835,6 @@
               "InitialX": 0
             },
             {
-              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -6850,7 +6843,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": 0,
+              "BulletSpeedVariance": -1000,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
               "ReloadDuration": 1,
@@ -6918,6 +6911,7 @@
               "smoothingMaxCellGap": 1
             },
             {
+              "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -7812,7 +7806,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7877,7 +7870,7 @@
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
                     "Agent_Stickman.Y()",
-                    "50",
+                    "15",
                     ""
                   ]
                 }
@@ -7911,7 +7904,7 @@
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
                     "Agent_Stickman.Y()",
-                    "100",
+                    "30",
                     ""
                   ]
                 }
@@ -7945,7 +7938,7 @@
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
                     "Agent_Stickman.Y()",
-                    "150",
+                    "45",
                     ""
                   ]
                 }
@@ -7979,7 +7972,7 @@
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
                     "Agent_Stickman.Y()",
-                    "250",
+                    "70",
                     ""
                   ]
                 }
