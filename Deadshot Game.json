@@ -1703,6 +1703,25 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
           "name": "ArchitectsDaughter.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hallway_interior-Double_window.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hallway_interior-Double_window.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "331874__furbyguy__undercover.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "331874__furbyguy__undercover.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2034,7 +2053,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203710672,
+        "zoomFactor": 0.15508574551594428,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2255,40 +2274,6 @@
           "x": 10140,
           "y": 150,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 170,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Low_Tier_Enemy",
-          "persistentUuid": "a930ea2d-1997-4693-bce7-c92ac0b116f8",
-          "width": 170,
-          "x": 11515,
-          "y": -28,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 3,
-          "height": 223,
-          "keepRatio": true,
-          "layer": "",
-          "name": "TopLeftCornerWoodBackgroundCutout",
-          "persistentUuid": "6d36b960-f87c-47a4-ad9c-6530cb2dbb29",
-          "width": 223,
-          "x": 1408,
-          "y": 609,
-          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3586,125 +3571,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 170,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Low_Tier_Enemy",
-          "persistentUuid": "b13019fa-641f-4082-9f61-660119ebc769",
-          "width": 170,
-          "x": 18134,
-          "y": -394,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 178,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Medium_Tier_Enemy",
-          "persistentUuid": "edceceea-cd2b-486d-a2e0-f80a085d72fe",
-          "width": 178,
-          "x": 18797,
-          "y": -182,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 170,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Medium_Tier_Enemy",
-          "persistentUuid": "d52215c8-a0d6-40b3-91b0-6c3fdaa4afaf",
-          "width": 170,
-          "x": 17517,
-          "y": 110,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 229,
-          "keepRatio": true,
-          "layer": "",
-          "name": "High_Tier_Enemy",
-          "persistentUuid": "0d91b397-317a-40a5-86b6-2ca126660690",
-          "width": 229,
-          "x": 26687,
-          "y": -2606,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 213,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Medium_Tier_Enemy",
-          "persistentUuid": "8043b0f9-a3da-43e7-8d0a-f03b4e0bf2ae",
-          "width": 213,
-          "x": 20486,
-          "y": -948,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 183,
-          "keepRatio": true,
-          "layer": "",
-          "name": "High_Tier_Enemy",
-          "persistentUuid": "bf3674f7-e930-4c99-936a-8b185b0eeacf",
-          "width": 183,
-          "x": 22717,
-          "y": -918,
-          "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 106,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Low_Tier_Enemy",
-          "persistentUuid": "862878ca-075d-4205-b44e-d2f8814124ad",
-          "width": 106,
-          "x": 24032,
-          "y": -2303,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 51,
           "height": 279,
           "keepRatio": true,
@@ -3765,23 +3631,6 @@
           "x": 15218,
           "y": -1033,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 213,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Medium_Tier_Enemy",
-          "persistentUuid": "29ef29eb-117a-4dda-9848-8565283c319e",
-          "width": 213,
-          "x": 29840,
-          "y": -2609,
-          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3926,23 +3775,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Low_Tier_Enemy",
-          "persistentUuid": "84aab11e-69ac-4cd5-bb5f-c0313c4051c5",
-          "width": 128,
-          "x": 31552,
-          "y": -1942,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 448,
           "keepRatio": true,
           "layer": "UI",
@@ -3952,6 +3784,57 @@
           "x": 143,
           "y": -153,
           "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1515,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hallway_Interior",
+          "persistentUuid": "9cb5d211-89a0-45e4-85c7-293ef6f17d13",
+          "width": 1515,
+          "x": 26,
+          "y": -135,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1515,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hallway_Interior",
+          "persistentUuid": "be4c6e8e-2e7f-48aa-b249-be04a42afcf2",
+          "width": 1515,
+          "x": 1522,
+          "y": -135,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1515,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hallway_Interior",
+          "persistentUuid": "f8e7ca97-0e05-4617-b81e-b03c702a2ad8",
+          "width": 1515,
+          "x": 3030,
+          "y": -135,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7674,6 +7557,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Hallway_Interior",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Hallway_interior-Double_window.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 288
+                          },
+                          {
+                            "x": 3200,
+                            "y": 288
+                          },
+                          {
+                            "x": 3200,
+                            "y": 2304
+                          },
+                          {
+                            "x": 0,
+                            "y": 2304
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7690,6 +7633,9 @@
               },
               {
                 "objectName": "StonePlatform"
+              },
+              {
+                "objectName": "Hallway_Interior"
               }
             ]
           },
@@ -9569,6 +9515,50 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Sound Effects",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "331874__furbyguy__undercover.wav",
+                "yes",
+                "50",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
