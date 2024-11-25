@@ -1722,6 +1722,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "115295__warriorsfan12331__gun_shot2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "115295__warriorsfan12331__gun_shot2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9555,6 +9565,34 @@
                 "331874__furbyguy__undercover.wav",
                 "yes",
                 "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "115295__warriorsfan12331__gun_shot2.wav",
+                "",
+                "90",
                 ""
               ]
             }
