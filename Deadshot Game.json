@@ -2207,7 +2207,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.16572117247528462,
+        "zoomFactor": 0.5117784035210693,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2233,15 +2233,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 4,
-          "height": 128,
+          "depth": 3,
+          "height": 84,
           "keepRatio": true,
           "layer": "",
           "name": "Agent_Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
-          "width": 128,
-          "x": 331,
-          "y": 704,
+          "width": 84,
+          "x": 128,
+          "y": 746,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2459,8 +2459,8 @@
           "layer": "",
           "name": "StonePlatform",
           "persistentUuid": "1bc78b16-aa82-48ff-b150-982e7f30656d",
-          "width": 2819,
-          "x": 16407,
+          "width": 2807,
+          "x": 16419,
           "y": 291,
           "zOrder": 1,
           "numberProperties": [],
@@ -3964,14 +3964,14 @@
         {
           "angle": 345,
           "customSize": true,
-          "depth": 4,
-          "height": 62,
+          "depth": 5,
+          "height": 65,
           "keepRatio": true,
           "layer": "",
           "name": "StonePlatform",
           "persistentUuid": "b828c7b8-7879-49e2-a51f-273adcb547c1",
-          "width": 508,
-          "x": 15925,
+          "width": 516,
+          "x": 15919,
           "y": 356,
           "zOrder": 1,
           "numberProperties": [],
@@ -4096,6 +4096,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.25,
@@ -4182,7 +4183,6 @@
               "yGrabOffset": 0
             },
             {
-              "isFolded": true,
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
               "LeftwardSpeed": 2,
@@ -4195,7 +4195,7 @@
               "FollowFreeAreaRight": 0,
               "FollowFreeAreaTop": 0,
               "FollowFreeAreaBottom": 0,
-              "CameraOffsetX": 250,
+              "CameraOffsetX": 400,
               "CameraOffsetY": -150,
               "CameraDelay": 0,
               "ForecastTime": 0,
@@ -7891,7 +7891,7 @@
                 "TimerText",
                 "Text",
                 "=",
-                "\"Time : \" + ToString(round(TimerElapsedTime(\"GameTime\")))"
+                "\"Time:\" + TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"GameTime\"))"
               ]
             }
           ]
@@ -9895,7 +9895,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -11281,6 +11281,126 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "@Bouh",
+      "category": "User interface",
+      "extensionNamespace": "",
+      "fullName": "Time formatting",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWNsb2NrLWRpZ2l0YWwiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiw2QTIsMiAwIDAsMCAwLDhWMTZBMiwyIDAgMCwwIDIsMThIMjJBMiwyIDAgMCwwIDI0LDE2VjhBMiwyIDAgMCwwIDIyLDZNMiw4SDIyVjE2SDJNMyw5VjEwLjVINi4yNUwzLDE1SDQuNzVMOCwxMC41VjlNOS4yNSw5VjEwLjVIMTAuNzVWOU0xMiw5VjEwLjVIMTMuNVYxNUgxNVY5TTE3LDlBMSwxIDAgMCwwIDE2LDEwVjE0QTEsMSAwIDAsMCAxNywxNUgyMEExLDEgMCAwLDAgMjEsMTRWMTBBMSwxIDAgMCwwIDIwLDlNMTcuNSwxMC41SDE5LjVWMTMuNUgxNy41TTkuMjUsMTMuNVYxNUgxMC43NVYxMy41IiAvPjwvc3ZnPg==",
+      "name": "TimeFormatter",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/clock-digital.svg",
+      "shortDescription": "Converts seconds into standard time formats, such as HH:MM:SS. ",
+      "version": "0.0.2",
+      "description": [
+        "Ideal for displaying timers on screen.",
+        "",
+        "Formats included:",
+        "* HH:MM:SS",
+        "* HH:MM:SS.000 (displays milliseconds)"
+      ],
+      "origin": {
+        "identifier": "TimeFormatter",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "time",
+        "timer",
+        "format",
+        "hours",
+        "minutes",
+        "seconds",
+        "milliseconds"
+      ],
+      "authorIds": [
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Format time in seconds to HH:MM:SS.",
+          "fullName": "Format time in seconds to HH:MM:SS",
+          "functionType": "StringExpression",
+          "name": "SecondsToHHMMSS",
+          "sentence": "Format time _PARAM1_ to HH:MM:SS in _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "var format_time = function (time_second) {\r",
+                "    date = new Date(null);\r",
+                "    date.setSeconds(time_second);\r",
+                "    if (time_second >= 3600) {\r",
+                "        return date.toISOString().substr(11, 8); // MM:SS\r",
+                "    } else {\r",
+                "        return date.toISOString().substr(14, 5); // HH:MM:SS\r",
+                "    }\r",
+                "}\r",
+                "\r",
+                "eventsFunctionContext.returnValue = format_time(eventsFunctionContext.getArgument(\"TimeInSeconds\"));"
+              ],
+              "parameterObjects": "",
+              "useStrict": false,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "string"
+          },
+          "parameters": [
+            {
+              "description": "Time, in seconds",
+              "name": "TimeInSeconds",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Format time in seconds to HH:MM:SS.000, including milliseconds.",
+          "fullName": "Format time in seconds to HH:MM:SS.000",
+          "functionType": "StringExpression",
+          "name": "SecondsToHHMMSS000",
+          "sentence": "Format time _PARAM1_ to HH:MM:SS in _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "var format_time = function (time_second) {\r",
+                "    date = new Date(null);\r",
+                "    date.setMilliseconds(1000*time_second);\r",
+                "    if (time_second >= 3600) {\r",
+                "        return date.toISOString().substr(11, 12); // MM:SS.000\r",
+                "    } else {\r",
+                "        return date.toISOString().substr(14, 9); // HH:MM:SS.000\r",
+                "    }\r",
+                "}\r",
+                "\r",
+                "eventsFunctionContext.returnValue = format_time(eventsFunctionContext.getArgument(\"TimeInSeconds\"));"
+              ],
+              "parameterObjects": "",
+              "useStrict": false,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "string"
+          },
+          "parameters": [
+            {
+              "description": "Time, in seconds",
+              "name": "TimeInSeconds",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "User interface",
