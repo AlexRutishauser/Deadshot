@@ -2188,15 +2188,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "Game_32Screen",
       "name": "Game Screen",
-      "r": 209,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -2207,7 +2207,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210693,
+        "zoomFactor": 0.3553434558817344,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4096,7 +4096,6 @@
           "effects": [],
           "behaviors": [
             {
-              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.25,
@@ -4104,7 +4103,7 @@
               "RotateBullet": true,
               "FiringArc": 45,
               "BulletQuantity": 1,
-              "AngleVariance": 0,
+              "AngleVariance": 4,
               "BulletSpeedVariance": -1000,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
@@ -4183,6 +4182,7 @@
               "yGrabOffset": 0
             },
             {
+              "isFolded": true,
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
               "LeftwardSpeed": 2,
@@ -8009,7 +8009,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Animation ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8207,17 +8206,6 @@
                 },
                 {
                   "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Bullets",
-                    "Scale",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -8226,6 +8214,17 @@
                     "",
                     "25",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "Scale",
+                    "=",
+                    "2"
                   ]
                 }
               ]
@@ -8413,21 +8412,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "Enemy_Bullet"
-                  ]
-                }
-              ],
-              "actions": []
             }
           ],
           "parameters": []
@@ -8437,6 +8421,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Drops",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8600,6 +8585,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Shotgun",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8771,6 +8757,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Taking Damage/Deaths",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9638,23 +9625,6 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Bullet_Counter",
-                    "Text",
-                    "=",
-                    "ToString(Agent_Stickman.FireBullet::ShotsBeforeNextReload())"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
                     "Ammo_Counter",
                     "Text",
                     "=",
@@ -10116,8 +10086,8 @@
           "name": "Time_Played",
           "persistentUuid": "9dd949ff-ff42-4181-a9ef-7bfb11b034b4",
           "width": 0,
-          "x": 472,
-          "y": 573,
+          "x": 637,
+          "y": 576,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -10548,6 +10518,11 @@
               ]
             }
           ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -10557,7 +10532,7 @@
                 "Time_Played",
                 "Text",
                 "=",
-                "\"Time Played:\" + ToString(TimerElapsedTime(\"GameTime\"))"
+                "\"Time Played:\" + TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"GameTime\"))"
               ]
             }
           ]
@@ -10753,8 +10728,8 @@
           "name": "Time_Completed",
           "persistentUuid": "73987582-c8ed-4357-b667-59032c1bede4",
           "width": 0,
-          "x": 418,
-          "y": 608,
+          "x": 482,
+          "y": 612,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -11199,7 +11174,7 @@
                 "Time_Completed",
                 "Text",
                 "=",
-                "\"Time Completed:\" + ToString(TimerElapsedTime(\"GameTime\"))"
+                "\"Time Completed:\" + TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"GameTime\"))"
               ]
             }
           ]
