@@ -1732,6 +1732,136 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Health Sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Health Sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ammo Pickup.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ammo Pickup.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Shotgun Sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Shotgun Sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/Stickman Hit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\Stickman Hit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/Shotgun Sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\Shotgun Sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/331874__furbyguy__undercover.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\331874__furbyguy__undercover.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/115295__warriorsfan12331__gun_shot2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\115295__warriorsfan12331__gun_shot2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/Ammo Pickup.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\Ammo Pickup.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/Health Sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\Health Sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/Enemy Death Sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\Enemy Death Sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/You Lose!.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\You Lose!.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/Enemy Hurt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\Enemy Hurt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effects/Enemy Firing.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effects\\Enemy Firing.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1968,6 +2098,20 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseInsideCanvas"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
         }
       ],
       "layers": [
@@ -2063,7 +2207,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.15508574551594428,
+        "zoomFactor": 0.16572117247528462,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2132,22 +2276,6 @@
           "x": 1453,
           "y": 33,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Bullet_Counter",
-          "persistentUuid": "9a8e68a9-964a-47d5-8179-7eb11a864423",
-          "width": 0,
-          "x": 45,
-          "y": 65,
-          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2330,43 +2458,9 @@
           "keepRatio": true,
           "layer": "",
           "name": "StonePlatform",
-          "persistentUuid": "479c38fd-0bf2-4de1-8b07-a8e7ae163320",
-          "width": 459,
-          "x": 15893,
-          "y": -96,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 30,
-          "customSize": true,
-          "depth": 3,
-          "height": 41,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
-          "persistentUuid": "59a93e58-3a61-4498-a1e3-94ed9336d110",
-          "width": 313,
-          "x": 16309,
-          "y": -20,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 4,
-          "height": 60,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
           "persistentUuid": "1bc78b16-aa82-48ff-b150-982e7f30656d",
-          "width": 2234,
-          "x": 16992,
+          "width": 2819,
+          "x": 16407,
           "y": 291,
           "zOrder": 1,
           "numberProperties": [],
@@ -3428,22 +3522,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Slash",
-          "persistentUuid": "d1db6a94-5cb6-448f-9a01-113cee47761c",
-          "width": 0,
-          "x": 87,
-          "y": 67,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 225,
@@ -3680,23 +3758,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 4,
-          "height": 60,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
-          "persistentUuid": "8c1c8fb8-e2e0-4ab3-b6b1-150e14f20c8c",
-          "width": 463,
-          "x": 15424,
-          "y": -544,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 270,
           "customSize": true,
           "depth": 4,
@@ -3708,57 +3769,6 @@
           "width": 491,
           "x": 15213,
           "y": -808,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 4,
-          "height": 60,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
-          "persistentUuid": "3c8a53db-ffd5-4d0f-9067-037f438a73b7",
-          "width": 459,
-          "x": 15645,
-          "y": -344,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 30,
-          "customSize": true,
-          "depth": 3,
-          "height": 41,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
-          "persistentUuid": "676b53a2-b3c9-4088-972d-cf447c3f3238",
-          "width": 313,
-          "x": 16512,
-          "y": 96,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 30,
-          "customSize": true,
-          "depth": 3,
-          "height": 41,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
-          "persistentUuid": "32458d4d-f010-4ec7-8804-e0ec58f7acc1",
-          "width": 313,
-          "x": 16754,
-          "y": 236,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3845,6 +3855,142 @@
           "x": 3030,
           "y": -135,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 131,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Ammo",
+          "persistentUuid": "1cf7b135-c258-45b1-a4fe-390619da6d77",
+          "width": 131,
+          "x": 5,
+          "y": 41,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 4,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "5efc19a5-8ad8-4032-a054-555169b9e8de",
+          "width": 491,
+          "x": 15422,
+          "y": -809,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 4,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "ba949471-c996-4906-a7a7-73c39db62c9c",
+          "width": 491,
+          "x": 15213,
+          "y": -318,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 4,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "6cfacc82-5d53-4d6d-a9f9-b7ef009434ac",
+          "width": 491,
+          "x": 15422,
+          "y": -319,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 4,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "b4c46cd0-0ab5-4d74-8f34-e12a7bc6ed55",
+          "width": 491,
+          "x": 15213,
+          "y": 165,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "ac57e329-3975-4571-859e-a0770c2abebd",
+          "width": 491,
+          "x": 15438,
+          "y": 425,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 345,
+          "customSize": true,
+          "depth": 4,
+          "height": 62,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "b828c7b8-7879-49e2-a51f-273adcb547c1",
+          "width": 508,
+          "x": 15925,
+          "y": 356,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 4,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "501595a2-9132-4ee8-b4fd-dc6ed72afe3e",
+          "width": 491,
+          "x": 15422,
+          "y": -1297,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3960,13 +4106,13 @@
               "AngleVariance": 0,
               "BulletSpeedVariance": -1000,
               "AmmoQuantity": 0,
-              "ShotsPerReload": 8,
+              "ShotsPerReload": 0,
               "ReloadDuration": 1,
-              "MaxAmmo": 64,
+              "MaxAmmo": 128,
               "ShotsBeforeNextReload": 0,
               "TotalShotsFired": 0,
               "TotalBulletsCreated": 0,
-              "StartingAmmo": 48,
+              "StartingAmmo": 64,
               "TotalReloadsCompleted": 0,
               "UnlimitedAmmo": false,
               "ReloadInProgress": false,
@@ -6144,48 +6290,6 @@
           }
         },
         {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "Bullet_Counter",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "8",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "8",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "color": "0;0;0"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Low_Tier_Enemy",
@@ -7219,48 +7323,6 @@
           }
         },
         {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "Slash",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "/",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "/",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "color": "0;0;0"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "b9c7dea224a0b7ecf6d781229de6dc63e728a91488a2035afa17e737aa51a4c6",
           "name": "Enemy_Bullet",
@@ -7713,12 +7775,6 @@
                     "objectName": "TimerText"
                   },
                   {
-                    "objectName": "Bullet_Counter"
-                  },
-                  {
-                    "objectName": "Slash"
-                  },
-                  {
                     "objectName": "Ammo_Counter"
                   }
                 ]
@@ -7807,6 +7863,18 @@
               },
               "parameters": [
                 "ShotgunCountdown"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Sound Effects\\331874__furbyguy__undercover.wav",
+                "yes",
+                "25",
+                ""
               ]
             }
           ]
@@ -8103,7 +8171,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8135,6 +8202,29 @@
                     "CursorX()",
                     "CursorY()",
                     "400",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "Scale",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\115295__warriorsfan12331__gun_shot2.wav",
+                    "",
+                    "25",
                     ""
                   ]
                 }
@@ -8171,6 +8261,18 @@
                     "15",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Firing.wav",
+                    "",
+                    "25",
+                    ""
+                  ]
                 }
               ]
             },
@@ -8203,6 +8305,18 @@
                     "Agent_Stickman.X()",
                     "Agent_Stickman.Y()+50",
                     "30",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Firing.wav",
+                    "",
+                    "25",
                     ""
                   ]
                 }
@@ -8239,6 +8353,18 @@
                     "45",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Firing.wav",
+                    "",
+                    "25",
+                    ""
+                  ]
                 }
               ]
             },
@@ -8273,12 +8399,34 @@
                     "70",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Firing.wav",
+                    "",
+                    "25",
+                    ""
+                  ]
                 }
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Enemy_Bullet"
+                  ]
+                }
+              ],
               "actions": []
             }
           ],
@@ -8289,7 +8437,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Drops",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8330,6 +8477,18 @@
                     "125",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Health Sound.wav",
+                    "",
+                    "100",
+                    ""
+                  ]
                 }
               ]
             },
@@ -8365,6 +8524,18 @@
                   },
                   "parameters": [
                     "Health_Pick_Up",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Health Sound.wav",
+                    "",
+                    "100",
                     ""
                   ]
                 }
@@ -8406,6 +8577,18 @@
                     "8",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Ammo Pickup.wav",
+                    "",
+                    "200",
+                    ""
+                  ]
                 }
               ]
             }
@@ -8417,7 +8600,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shotgun",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8589,7 +8771,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Taking Damage/Deaths",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8642,6 +8823,18 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\You Lose!.wav",
+                    "",
+                    "100",
+                    ""
+                  ]
                 }
               ]
             },
@@ -8692,6 +8885,18 @@
                     "Enemy_Bullet",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Stickman Hit.wav",
+                    "",
+                    "25",
+                    ""
+                  ]
                 }
               ]
             },
@@ -8728,6 +8933,18 @@
                     "Animation",
                     "=",
                     "\"Fall\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\You Lose!.wav",
+                    "",
+                    "100",
+                    ""
                   ]
                 }
               ]
@@ -8779,6 +8996,18 @@
                     "-",
                     "45"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Hurt.wav",
+                    "",
+                    "100",
+                    ""
+                  ]
                 }
               ]
             },
@@ -8818,6 +9047,18 @@
                     "-",
                     "45"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Hurt.wav",
+                    "",
+                    "100",
+                    ""
+                  ]
                 }
               ]
             },
@@ -8856,6 +9097,18 @@
                     "Health",
                     "-",
                     "45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Hurt.wav",
+                    "",
+                    "100",
+                    ""
                   ]
                 }
               ]
@@ -8895,6 +9148,18 @@
                     "Health",
                     "-",
                     "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Hurt.wav",
+                    "",
+                    "100",
+                    ""
                   ]
                 }
               ]
@@ -9057,6 +9322,18 @@
                     "Low_Tier_Enemy",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Death Sound.wav",
+                    "",
+                    "25",
+                    ""
+                  ]
                 }
               ]
             },
@@ -9084,6 +9361,18 @@
                     "Medium_Tier_Enemy",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Death Sound.wav",
+                    "",
+                    "25",
+                    ""
+                  ]
                 }
               ]
             },
@@ -9109,6 +9398,18 @@
                   },
                   "parameters": [
                     "High_Tier_Enemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Death Sound.wav",
+                    "",
+                    "25",
                     ""
                   ]
                 }
@@ -9146,6 +9447,18 @@
                   },
                   "parameters": [
                     "Boss",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Death Sound.wav",
+                    "",
+                    "25",
                     ""
                   ]
                 }
@@ -9525,78 +9838,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Sound Effects",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "331874__furbyguy__undercover.wav",
-                "yes",
-                "50",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "115295__warriorsfan12331__gun_shot2.wav",
-                "",
-                "90",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -9654,7 +9895,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -9865,6 +10106,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Time_Played",
+          "persistentUuid": "9dd949ff-ff42-4181-a9ef-7bfb11b034b4",
+          "width": 0,
+          "x": 472,
+          "y": 573,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -9879,7 +10136,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "             GAME OVER!\nYou Failed To Protect Sticktopia! \n         \n",
+          "string": "               GAME OVER!\nYou Failed To Protect Sticktopia! \n         \n",
           "font": "",
           "textAlignment": "left",
           "characterSize": 100,
@@ -9902,7 +10159,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "             GAME OVER!\nYou Failed To Protect Sticktopia! \n         \n",
+            "text": "               GAME OVER!\nYou Failed To Protect Sticktopia! \n         \n",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -9993,17 +10250,6 @@
             "characterSize": 65,
             "color": "0;0;0"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
         },
         {
           "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
@@ -10172,6 +10418,48 @@
               "width": 192
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Time_Played",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Time Played:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 65,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Time Played:",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 65,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -10187,7 +10475,7 @@
             "objectName": "Quit"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "Time_Played"
           },
           {
             "objectName": "Restart_Button"
@@ -10250,8 +10538,29 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseInsideCanvas"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Time_Played",
+                "Text",
+                "=",
+                "\"Time Played:\" + ToString(TimerElapsedTime(\"GameTime\"))"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -10301,10 +10610,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
@@ -10435,6 +10740,22 @@
           "x": 1216,
           "y": 758,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Time_Completed",
+          "persistentUuid": "73987582-c8ed-4357-b667-59032c1bede4",
+          "width": 0,
+          "x": 418,
+          "y": 608,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10734,6 +11055,48 @@
             "characterSize": 65,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Time_Completed",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Time Completed: ",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 80,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Time Completed: ",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 80,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -10753,6 +11116,9 @@
           },
           {
             "objectName": "Quit"
+          },
+          {
+            "objectName": "Time_Completed"
           }
         ]
       },
@@ -10803,6 +11169,37 @@
               },
               "parameters": [
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseInsideCanvas"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Time_Completed",
+                "Text",
+                "=",
+                "\"Time Completed:\" + ToString(TimerElapsedTime(\"GameTime\"))"
               ]
             }
           ]
