@@ -2272,7 +2272,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.09748304263252099,
+        "zoomFactor": 0.44819780454108205,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4083,7 +4083,7 @@
           "depth": 3,
           "height": 5982,
           "keepRatio": true,
-          "layer": "City Background",
+          "layer": "",
           "name": "CityBackground",
           "persistentUuid": "95c97129-54f4-4808-a019-8ec562fd68e6",
           "width": 6081,
@@ -4098,14 +4098,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 2963,
+          "height": 2522,
           "keepRatio": true,
-          "layer": "City Background",
+          "layer": "",
           "name": "InclineBuilding",
           "persistentUuid": "7d818087-1e31-43a2-b14d-c03c9ebaf294",
-          "width": 1855,
-          "x": 14281,
-          "y": -2473,
+          "width": 1579,
+          "x": 11777,
+          "y": -1765,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -4117,7 +4117,7 @@
           "depth": 1,
           "height": 4472,
           "keepRatio": true,
-          "layer": "City Background",
+          "layer": "",
           "name": "Building",
           "persistentUuid": "59c59892-780a-4126-a622-784b1c588bb8",
           "width": 5816,
@@ -6396,9 +6396,9 @@
           "textAlignment": "left",
           "characterSize": 70,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -6419,7 +6419,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -7429,9 +7429,9 @@
           "textAlignment": "left",
           "characterSize": 70,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -7452,7 +7452,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -10145,39 +10145,6 @@
         }
       ],
       "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "City Background",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
