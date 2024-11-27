@@ -2245,7 +2245,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.10077020300731557,
+        "zoomFactor": 0.12710233719928055,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10036,15 +10036,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Death_32Screen",
       "name": "Death Screen",
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -10178,9 +10178,9 @@
           "textAlignment": "left",
           "characterSize": 100,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -10201,7 +10201,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 100,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -10220,9 +10220,9 @@
           "textAlignment": "left",
           "characterSize": 65,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -10243,7 +10243,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 65,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -10262,9 +10262,9 @@
           "textAlignment": "left",
           "characterSize": 65,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -10285,7 +10285,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 65,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -10688,17 +10688,17 @@
       ]
     },
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Victory_32Screen",
       "name": "Victory Screen",
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -10706,7 +10706,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
+        "snap": false,
         "zoomFactor": 0.5995738389111078,
         "windowMask": false
       },
@@ -10722,8 +10722,8 @@
           "name": "Congrats",
           "persistentUuid": "4348ba35-8efa-4fd1-be9e-77ac76c54ae8",
           "width": 0,
-          "x": 378,
-          "y": 254,
+          "x": 385,
+          "y": 186,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -10797,15 +10797,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
           "keepRatio": true,
           "layer": "",
           "name": "Time_Completed",
           "persistentUuid": "73987582-c8ed-4357-b667-59032c1bede4",
-          "width": 0,
-          "x": 482,
-          "y": 612,
+          "width": 650,
+          "x": 437,
+          "y": 583,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -10992,14 +10993,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "          Congratulations! \n      You Saved Sticktopia! \nYou're now the legend known as \n          Agent Stickman!",
+          "string": "           Congratulations! \n        You Saved Sticktopia! \nYou're now the legend known as \n            Agent Stickman!",
           "font": "",
           "textAlignment": "left",
           "characterSize": 75,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 134,
+            "g": 233,
+            "r": 184
           },
           "content": {
             "bold": true,
@@ -11015,12 +11016,12 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "          Congratulations! \n      You Saved Sticktopia! \nYou're now the legend known as \n          Agent Stickman!",
+            "text": "           Congratulations! \n        You Saved Sticktopia! \nYou're now the legend known as \n            Agent Stickman!",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 75,
-            "color": "0;0;0"
+            "color": "184;233;134"
           }
         },
         {
@@ -11039,9 +11040,9 @@
           "textAlignment": "left",
           "characterSize": 65,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 134,
+            "g": 233,
+            "r": 184
           },
           "content": {
             "bold": true,
@@ -11062,7 +11063,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 65,
-            "color": "0;0;0"
+            "color": "184;233;134"
           }
         },
         {
@@ -11081,9 +11082,9 @@
           "textAlignment": "left",
           "characterSize": 65,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 134,
+            "g": 233,
+            "r": 184
           },
           "content": {
             "bold": true,
@@ -11104,7 +11105,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 65,
-            "color": "0;0;0"
+            "color": "184;233;134"
           }
         },
         {
@@ -11123,9 +11124,9 @@
           "textAlignment": "left",
           "characterSize": 80,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 134,
+            "g": 233,
+            "r": 184
           },
           "content": {
             "bold": true,
@@ -11146,7 +11147,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 80,
-            "color": "0;0;0"
+            "color": "184;233;134"
           }
         }
       ],
