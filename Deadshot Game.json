@@ -1881,6 +1881,33 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Empire_state.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Empire_state.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Inlcine_tower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Inlcine_tower.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cityscape.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cityscape.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2245,7 +2272,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.12710233719928055,
+        "zoomFactor": 0.0825873988590323,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4046,6 +4073,38 @@
           "x": 6187,
           "y": -320,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building",
+          "persistentUuid": "9e8be560-6aeb-4deb-bf4d-a5f7f71f439c",
+          "width": 0,
+          "x": 13593,
+          "y": -3133,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "InclineBuilding",
+          "persistentUuid": "d25eead1-4317-4772-accc-73356cfc2143",
+          "width": 0,
+          "x": 10451,
+          "y": -2385,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7744,6 +7803,186 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Building",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Empire_state.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1440,
+                            "y": 512
+                          },
+                          {
+                            "x": 1888,
+                            "y": 512
+                          },
+                          {
+                            "x": 1888,
+                            "y": 3200
+                          },
+                          {
+                            "x": 1440,
+                            "y": 3200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "InclineBuilding",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Inlcine_tower.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1152,
+                            "y": 288
+                          },
+                          {
+                            "x": 2016,
+                            "y": 288
+                          },
+                          {
+                            "x": 2016,
+                            "y": 3200
+                          },
+                          {
+                            "x": 1152,
+                            "y": 3200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CityBackground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\cityscape.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 3200,
+                            "y": 0
+                          },
+                          {
+                            "x": 3200,
+                            "y": 3200
+                          },
+                          {
+                            "x": 0,
+                            "y": 3200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7753,16 +7992,25 @@
             "folderName": "Platforms",
             "children": [
               {
+                "objectName": "CityBackground"
+              },
+              {
                 "objectName": "PurpleBackground"
               },
               {
                 "objectName": "TopLeftCornerWoodBackgroundCutout"
               },
               {
+                "objectName": "InclineBuilding"
+              },
+              {
                 "objectName": "StonePlatform"
               },
               {
                 "objectName": "Hallway_Interior"
+              },
+              {
+                "objectName": "Building"
               }
             ]
           },
@@ -10055,7 +10303,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6197916666666664,
+        "zoomFactor": 0.5800155239904867,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10071,8 +10319,8 @@
           "name": "Game_Over_Text",
           "persistentUuid": "b8ee4958-40c0-4089-9bc1-f2d5117a4d40",
           "width": 1565,
-          "x": 197,
-          "y": 346,
+          "x": 333,
+          "y": 316,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -10087,8 +10335,8 @@
           "name": "Restart",
           "persistentUuid": "f214b91c-03e8-446f-af5a-df6efa94cf55",
           "width": 0,
-          "x": 167,
-          "y": 695,
+          "x": 340,
+          "y": 489,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10103,8 +10351,8 @@
           "name": "Quit",
           "persistentUuid": "72bec0ee-8d22-4e8c-b5ee-0c5ecd17ebdf",
           "width": 0,
-          "x": 1184,
-          "y": 767,
+          "x": 1228,
+          "y": 567,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -10120,8 +10368,8 @@
           "name": "Restart_Button",
           "persistentUuid": "18fe1bec-7b7a-4eb1-ada5-0c50ae7fa2d5",
           "width": 356,
-          "x": 292,
-          "y": 854,
+          "x": 462,
+          "y": 673,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -10137,8 +10385,8 @@
           "name": "Quit_Button",
           "persistentUuid": "96ff6db7-f9ee-4732-bc11-fad3701bc02f",
           "width": 258,
-          "x": 1314,
-          "y": 854,
+          "x": 1372,
+          "y": 679,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -10146,16 +10394,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2176,
           "keepRatio": true,
-          "layer": "",
-          "name": "Time_Played",
-          "persistentUuid": "9dd949ff-ff42-4181-a9ef-7bfb11b034b4",
-          "width": 0,
-          "x": 637,
-          "y": 576,
-          "zOrder": 8,
+          "layer": "Background",
+          "name": "NewSprite",
+          "persistentUuid": "1e50e14d-0bc7-4068-b723-e937fa1f4107",
+          "width": 2215,
+          "x": -9,
+          "y": -945,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10176,7 +10425,7 @@
           "string": "               GAME OVER!\nYou Failed To Protect Sticktopia! \n         \n",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 100,
+          "characterSize": 90,
           "color": {
             "b": 255,
             "g": 255,
@@ -10200,7 +10449,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 100,
+            "characterSize": 90,
             "color": "255;255;255"
           }
         },
@@ -10497,11 +10746,74 @@
             "characterSize": 65,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\cityscape.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 3200,
+                            "y": 0
+                          },
+                          {
+                            "x": 3200,
+                            "y": 3200
+                          },
+                          {
+                            "x": 0,
+                            "y": 3200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "Time_Played"
+          },
           {
             "objectName": "Game_Over_Text"
           },
@@ -10512,13 +10824,13 @@
             "objectName": "Quit"
           },
           {
-            "objectName": "Time_Played"
-          },
-          {
             "objectName": "Restart_Button"
           },
           {
             "objectName": "Quit_Button"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -10625,6 +10937,39 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": true,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "isLocked": false,
           "name": "",
           "renderingType": "",
@@ -10661,6 +11006,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
@@ -10707,7 +11056,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5995738389111078,
+        "zoomFactor": 0.4913877545329353,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10722,8 +11071,8 @@
           "name": "Congrats",
           "persistentUuid": "4348ba35-8efa-4fd1-be9e-77ac76c54ae8",
           "width": 0,
-          "x": 385,
-          "y": 186,
+          "x": 458,
+          "y": 367,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -10739,8 +11088,8 @@
           "name": "Restart_Button",
           "persistentUuid": "ec1b2557-bfe8-47b8-b335-616e5f22244e",
           "width": 416,
-          "x": 256,
-          "y": 832,
+          "x": 372,
+          "y": 850,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10756,8 +11105,8 @@
           "name": "Quit_Button",
           "persistentUuid": "28a9d4ba-7f96-464a-a5cf-44eda5f9664e",
           "width": 318,
-          "x": 1282,
-          "y": 842,
+          "x": 1294,
+          "y": 860,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10772,8 +11121,8 @@
           "name": "Restart",
           "persistentUuid": "9881fbe4-9e57-4f93-8ddd-1ac05e6523a0",
           "width": 0,
-          "x": 147,
-          "y": 684,
+          "x": 295,
+          "y": 692,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10789,7 +11138,7 @@
           "persistentUuid": "c61996c3-7fe5-4c7e-b50f-d969c35ea8d3",
           "width": 0,
           "x": 1216,
-          "y": 758,
+          "y": 770,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -10799,15 +11148,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 89,
+          "height": 1652,
           "keepRatio": true,
-          "layer": "",
-          "name": "Time_Completed",
-          "persistentUuid": "73987582-c8ed-4357-b667-59032c1bede4",
-          "width": 650,
-          "x": 437,
-          "y": 583,
-          "zOrder": 6,
+          "layer": "Background",
+          "name": "NewSprite",
+          "persistentUuid": "52febf21-1bfe-4bda-8dae-04c95ed2935c",
+          "width": 1924,
+          "x": -1,
+          "y": -574,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11149,6 +11498,66 @@
             "characterSize": 80,
             "color": "184;233;134"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\cityscape.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 3200,
+                            "y": 0
+                          },
+                          {
+                            "x": 3200,
+                            "y": 3200
+                          },
+                          {
+                            "x": 0,
+                            "y": 3200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11171,6 +11580,9 @@
           },
           {
             "objectName": "Time_Completed"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -11278,6 +11690,39 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -11313,6 +11758,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
