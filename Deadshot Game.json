@@ -1,7 +1,7 @@
 {
   "firstLayout": "Start Screen",
   "gdVersion": {
-    "build": 218,
+    "build": 219,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -93,7 +93,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Down_1.png",
         "kind": "image",
         "metadata": "",
@@ -106,7 +105,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Down_2.png",
         "kind": "image",
         "metadata": "",
@@ -119,7 +117,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Down_3.png",
         "kind": "image",
         "metadata": "",
@@ -132,7 +129,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Left_1.png",
         "kind": "image",
         "metadata": "",
@@ -145,7 +141,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Left_2.png",
         "kind": "image",
         "metadata": "",
@@ -158,7 +153,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Left_3.png",
         "kind": "image",
         "metadata": "",
@@ -171,7 +165,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Right_1.png",
         "kind": "image",
         "metadata": "",
@@ -184,7 +177,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Right_2.png",
         "kind": "image",
         "metadata": "",
@@ -197,7 +189,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Right_3.png",
         "kind": "image",
         "metadata": "",
@@ -210,7 +201,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Up_1.png",
         "kind": "image",
         "metadata": "",
@@ -223,7 +213,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Up_2.png",
         "kind": "image",
         "metadata": "",
@@ -236,7 +225,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 2_Up_3.png",
         "kind": "image",
         "metadata": "",
@@ -249,7 +237,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Empty Cloud Background.png",
         "kind": "image",
         "metadata": "",
@@ -262,7 +249,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Down_1.png",
         "kind": "image",
         "metadata": "",
@@ -275,7 +261,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Down_2.png",
         "kind": "image",
         "metadata": "",
@@ -288,7 +273,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Down_3.png",
         "kind": "image",
         "metadata": "",
@@ -301,7 +285,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Left_1.png",
         "kind": "image",
         "metadata": "",
@@ -314,7 +297,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Left_2.png",
         "kind": "image",
         "metadata": "",
@@ -327,7 +309,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Left_3.png",
         "kind": "image",
         "metadata": "",
@@ -340,7 +321,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Right_1.png",
         "kind": "image",
         "metadata": "",
@@ -353,7 +333,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Right_2.png",
         "kind": "image",
         "metadata": "",
@@ -366,7 +345,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Right_3.png",
         "kind": "image",
         "metadata": "",
@@ -379,7 +357,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Up_1.png",
         "kind": "image",
         "metadata": "",
@@ -392,7 +369,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Up_2.png",
         "kind": "image",
         "metadata": "",
@@ -405,7 +381,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Up_3.png",
         "kind": "image",
         "metadata": "",
@@ -418,7 +393,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Scythe 9.png",
         "kind": "image",
         "metadata": "",
@@ -431,7 +405,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Stone Platform.png",
         "kind": "image",
         "metadata": "",
@@ -444,7 +417,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Double Jump_1.png",
         "kind": "image",
         "metadata": "",
@@ -457,7 +429,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Double Jump_2.png",
         "kind": "image",
         "metadata": "",
@@ -470,7 +441,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Double Jump_3.png",
         "kind": "image",
         "metadata": "",
@@ -483,7 +453,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Double Jump_4.png",
         "kind": "image",
         "metadata": "",
@@ -496,7 +465,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Double Jump_5.png",
         "kind": "image",
         "metadata": "",
@@ -509,7 +477,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Double Jump_6.png",
         "kind": "image",
         "metadata": "",
@@ -522,7 +489,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Fall.png",
         "kind": "image",
         "metadata": "",
@@ -535,7 +501,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Hit_1.png",
         "kind": "image",
         "metadata": "",
@@ -548,7 +513,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Hit_2.png",
         "kind": "image",
         "metadata": "",
@@ -561,7 +525,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Hit_3.png",
         "kind": "image",
         "metadata": "",
@@ -574,7 +537,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Hit_4.png",
         "kind": "image",
         "metadata": "",
@@ -587,7 +549,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Hit_5.png",
         "kind": "image",
         "metadata": "",
@@ -600,7 +561,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Hit_6.png",
         "kind": "image",
         "metadata": "",
@@ -613,7 +573,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Hit_7.png",
         "kind": "image",
         "metadata": "",
@@ -626,7 +585,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_1.png",
         "kind": "image",
         "metadata": "",
@@ -639,7 +597,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_10.png",
         "kind": "image",
         "metadata": "",
@@ -652,7 +609,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_11.png",
         "kind": "image",
         "metadata": "",
@@ -665,7 +621,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_2.png",
         "kind": "image",
         "metadata": "",
@@ -678,7 +633,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_3.png",
         "kind": "image",
         "metadata": "",
@@ -691,7 +645,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_4.png",
         "kind": "image",
         "metadata": "",
@@ -704,7 +657,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_5.png",
         "kind": "image",
         "metadata": "",
@@ -717,7 +669,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_6.png",
         "kind": "image",
         "metadata": "",
@@ -730,7 +681,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_7.png",
         "kind": "image",
         "metadata": "",
@@ -743,7 +693,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_8.png",
         "kind": "image",
         "metadata": "",
@@ -756,7 +705,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Idle_9.png",
         "kind": "image",
         "metadata": "",
@@ -769,7 +717,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Jump.png",
         "kind": "image",
         "metadata": "",
@@ -782,7 +729,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_1.png",
         "kind": "image",
         "metadata": "",
@@ -795,7 +741,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_10.png",
         "kind": "image",
         "metadata": "",
@@ -808,7 +753,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_11.png",
         "kind": "image",
         "metadata": "",
@@ -821,7 +765,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_12.png",
         "kind": "image",
         "metadata": "",
@@ -834,7 +777,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_2.png",
         "kind": "image",
         "metadata": "",
@@ -847,7 +789,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_3.png",
         "kind": "image",
         "metadata": "",
@@ -860,7 +801,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_4.png",
         "kind": "image",
         "metadata": "",
@@ -873,7 +813,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_5.png",
         "kind": "image",
         "metadata": "",
@@ -886,7 +825,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_6.png",
         "kind": "image",
         "metadata": "",
@@ -899,7 +837,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_7.png",
         "kind": "image",
         "metadata": "",
@@ -912,7 +849,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_8.png",
         "kind": "image",
         "metadata": "",
@@ -925,7 +861,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Run_9.png",
         "kind": "image",
         "metadata": "",
@@ -938,7 +873,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Wall Jump_1.png",
         "kind": "image",
         "metadata": "",
@@ -951,7 +885,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Wall Jump_2.png",
         "kind": "image",
         "metadata": "",
@@ -964,7 +897,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Wall Jump_3.png",
         "kind": "image",
         "metadata": "",
@@ -977,7 +909,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Wall Jump_4.png",
         "kind": "image",
         "metadata": "",
@@ -990,7 +921,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Virtual Guy_Wall Jump_5.png",
         "kind": "image",
         "metadata": "",
@@ -1003,7 +933,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Security fence.png",
         "kind": "image",
         "metadata": "",
@@ -1016,7 +945,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Platform 1.png",
         "kind": "image",
         "metadata": "",
@@ -1029,7 +957,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Industrial block.png",
         "kind": "image",
         "metadata": "",
@@ -1042,7 +969,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Purple background.png",
         "kind": "image",
         "metadata": "",
@@ -1055,7 +981,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bullet 1.png",
         "kind": "image",
         "metadata": "",
@@ -1068,7 +993,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Fire Ammo.gif",
         "kind": "image",
         "metadata": "",
@@ -1077,7 +1001,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Fireball_Projectile_1.png",
         "kind": "image",
         "metadata": "",
@@ -1090,7 +1013,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Fireball_Projectile_2.png",
         "kind": "image",
         "metadata": "",
@@ -1103,7 +1025,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Fireball_Projectile_3.png",
         "kind": "image",
         "metadata": "",
@@ -1116,7 +1037,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Down_1.png",
         "kind": "image",
         "metadata": "",
@@ -1129,7 +1049,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Down_2.png",
         "kind": "image",
         "metadata": "",
@@ -1142,7 +1061,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Down_3.png",
         "kind": "image",
         "metadata": "",
@@ -1155,7 +1073,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Left_1.png",
         "kind": "image",
         "metadata": "",
@@ -1168,7 +1085,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Left_2.png",
         "kind": "image",
         "metadata": "",
@@ -1181,7 +1097,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Left_3.png",
         "kind": "image",
         "metadata": "",
@@ -1194,7 +1109,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Right_1.png",
         "kind": "image",
         "metadata": "",
@@ -1207,7 +1121,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Right_2.png",
         "kind": "image",
         "metadata": "",
@@ -1220,7 +1133,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Right_3.png",
         "kind": "image",
         "metadata": "",
@@ -1233,7 +1145,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Up_1.png",
         "kind": "image",
         "metadata": "",
@@ -1246,7 +1157,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Up_2.png",
         "kind": "image",
         "metadata": "",
@@ -1259,7 +1169,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 11_Walking Up_3.png",
         "kind": "image",
         "metadata": "",
@@ -1272,7 +1181,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Health Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1281,7 +1189,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Target_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -1294,7 +1201,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Target_Outline.png",
         "kind": "image",
         "metadata": "",
@@ -1307,7 +1213,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Grunt-7.png.png",
         "kind": "image",
         "metadata": "",
@@ -1316,7 +1221,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Elite_Enemy-5.png.png",
         "kind": "image",
         "metadata": "",
@@ -1325,7 +1229,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Mercenary-6.png.png",
         "kind": "image",
         "metadata": "",
@@ -1334,7 +1237,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Pills.png",
         "kind": "image",
         "metadata": "",
@@ -1343,7 +1245,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shotgun.png",
         "kind": "image",
         "metadata": "",
@@ -1352,7 +1253,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Health Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1361,7 +1261,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Fire Ammo.png",
         "kind": "image",
         "metadata": "",
@@ -1370,7 +1269,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/High spikes.png",
         "kind": "image",
         "metadata": "",
@@ -1383,7 +1281,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Health Bar Fill.png",
         "kind": "image",
         "metadata": "",
@@ -1396,7 +1293,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Top Left Corner Wood Background Cutout.png",
         "kind": "image",
         "metadata": "",
@@ -1409,7 +1305,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Health_01.png",
         "kind": "image",
         "metadata": "",
@@ -1422,7 +1317,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Health_01_Bar01.png",
         "kind": "image",
         "metadata": "",
@@ -1435,7 +1329,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Health_01_Bar02.png",
         "kind": "image",
         "metadata": "",
@@ -1448,7 +1341,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "New Piskel.png",
         "kind": "image",
         "metadata": "",
@@ -1457,7 +1349,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Health Bar Box.png",
         "kind": "image",
         "metadata": "",
@@ -1470,7 +1361,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Health Bar2.png",
         "kind": "image",
         "metadata": "",
@@ -1483,7 +1373,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bullet.png",
         "kind": "image",
         "metadata": "",
@@ -1496,7 +1385,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bullet 5.png",
         "kind": "image",
         "metadata": "",
@@ -1509,7 +1397,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Flat Bar Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1522,7 +1409,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Flat Bar White Border.png",
         "kind": "image",
         "metadata": "",
@@ -1535,7 +1421,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bar",
         "kind": "image",
         "metadata": "",
@@ -1544,7 +1429,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Cross.png",
         "kind": "image",
         "metadata": "",
@@ -1553,7 +1437,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Player Health Bar2.png",
         "kind": "image",
         "metadata": "",
@@ -1562,7 +1445,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Health Bar Border2.png",
         "kind": "image",
         "metadata": "",
@@ -1571,7 +1453,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Health Bar Border3.png",
         "kind": "image",
         "metadata": "",
@@ -1580,7 +1461,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/HealthBar/Player Health Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1589,7 +1469,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/HealthBar/Health Bar Border.png",
         "kind": "image",
         "metadata": "",
@@ -1598,7 +1477,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Flat Bar Blue Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1611,7 +1489,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New Piskel.png",
         "kind": "image",
         "metadata": "",
@@ -1620,7 +1497,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/HealthBar/Health Bar Border3.png",
         "kind": "image",
         "metadata": "",
@@ -1629,7 +1505,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Retry.png",
         "kind": "image",
         "metadata": "",
@@ -1642,7 +1517,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Large Exit Button.png",
         "kind": "image",
         "metadata": "",
@@ -1655,7 +1529,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -1668,7 +1541,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -1681,7 +1553,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -1705,7 +1576,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Hallway_interior-Double_window.png",
         "kind": "image",
         "metadata": "",
@@ -1864,7 +1734,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Deadshot Logo.png",
         "kind": "image",
         "metadata": "",
@@ -1883,7 +1752,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Empire_state.png",
         "kind": "image",
         "metadata": "",
@@ -1892,7 +1760,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Inlcine_tower.png",
         "kind": "image",
         "metadata": "",
@@ -1901,7 +1768,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/cityscape.png",
         "kind": "image",
         "metadata": "",
@@ -2272,7 +2138,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32169117647062206,
+        "zoomFactor": 0.3437520241612679,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2305,8 +2171,8 @@
           "name": "Agent_Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
           "width": 84,
-          "x": 128,
-          "y": 746,
+          "x": 162,
+          "y": 735,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3559,7 +3425,7 @@
           "height": 620,
           "keepRatio": true,
           "layer": "",
-          "name": "Boss",
+          "name": "FinalBoss",
           "persistentUuid": "fd550c66-34f7-471d-b300-6ec0b4daf377",
           "width": 620,
           "x": 34192,
@@ -7502,14 +7368,14 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Boss",
+          "name": "FinalBoss",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "name": "Health",
               "type": "number",
-              "value": 2500
+              "value": 3500
             }
           ],
           "effects": [],
@@ -7533,7 +7399,7 @@
               "FiringArc": 45,
               "BulletQuantity": 1,
               "AngleVariance": 0,
-              "BulletSpeedVariance": -500,
+              "BulletSpeedVariance": -750,
               "AmmoQuantity": 0,
               "ShotsPerReload": 0,
               "ReloadDuration": 1,
@@ -7553,34 +7419,6 @@
               "ExponentialCoolingRate": 0.3,
               "BulletLayer": "",
               "RandomizedAngle": 0
-            },
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 200,
-              "CurrentHealth": 0,
-              "MaxHealth": 200,
-              "DamageCooldown": 0,
-              "AllowOverHealing": false,
-              "IsHealthJustDamaged": false,
-              "DamageToBeApplied": 0,
-              "HitAtLeastOnce": false,
-              "ChanceToDodge": 0,
-              "IsJustDodged": false,
-              "HealToBeApplied": 0,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 2.0247e-320,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ShieldDamageTaken": 2.0247e-320,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0
             },
             {
               "isFolded": true,
@@ -7816,13 +7654,13 @@
           "childrenContent": {
             "Background": {
               "bottomMargin": 6,
-              "height": 1080,
+              "height": 24,
               "leftMargin": 4,
               "rightMargin": 4,
               "texture": "assets\\HealthBar\\Health Bar Border.png",
-              "tiled": true,
+              "tiled": false,
               "topMargin": 6,
-              "width": 1920
+              "width": 24
             },
             "Buffer": {
               "bottomMargin": 0,
@@ -7898,9 +7736,9 @@
           "textAlignment": "left",
           "characterSize": 70,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -7921,7 +7759,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -8341,7 +8179,7 @@
                 "objectName": "Low_Tier_Enemy"
               },
               {
-                "objectName": "Boss"
+                "objectName": "FinalBoss"
               }
             ]
           },
@@ -8479,6 +8317,17 @@
                 "25",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Agent_Stickman",
+                "Animation",
+                "=",
+                "3"
+              ]
             }
           ]
         },
@@ -8504,7 +8353,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Movement Control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8612,7 +8460,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Animation ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8646,6 +8493,36 @@
                     "Animation",
                     "=",
                     "\"Jump\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Agent_Stickman",
+                        "Animation"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Agent_Stickman",
+                        "Animation",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -8750,6 +8627,12 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -8765,6 +8648,68 @@
                   ]
                 }
               ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Agent_Stickman",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -8774,7 +8719,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8981,7 +8925,7 @@
                   },
                   "parameters": [
                     "Agent_Stickman",
-                    "Boss",
+                    "FinalBoss",
                     "800",
                     ""
                   ]
@@ -8993,13 +8937,13 @@
                     "value": "FireBullet::FireBullet::FireTowardPosition"
                   },
                   "parameters": [
-                    "Boss",
+                    "FinalBoss",
                     "FireBullet",
-                    "Boss.BoundingBoxCenterX()",
-                    "Boss.BoundingBoxCenterY()",
+                    "FinalBoss.BoundingBoxCenterX()",
+                    "FinalBoss.BoundingBoxCenterY()",
                     "Enemy_Bullet",
                     "Agent_Stickman.X()",
-                    "Agent_Stickman.Y()+50",
+                    "Agent_Stickman.Y()-75",
                     "70",
                     ""
                   ]
@@ -9373,7 +9317,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Taking Damage/Deaths",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9725,7 +9668,7 @@
                   },
                   "parameters": [
                     "Bullets",
-                    "Boss",
+                    "FinalBoss",
                     "",
                     "",
                     ""
@@ -9747,10 +9690,10 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "Boss",
+                    "FinalBoss",
                     "Health",
                     "-",
-                    "150"
+                    "100"
                   ]
                 },
                 {
@@ -9976,6 +9919,18 @@
                     "25",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ammo",
+                    "Medium_Tier_Enemy.BoundingBoxCenterX()",
+                    "Medium_Tier_Enemy.BoundingBoxCenterX()",
+                    ""
+                  ]
                 }
               ]
             },
@@ -10026,7 +9981,7 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
-                    "Boss",
+                    "FinalBoss",
                     "Health",
                     "<",
                     "0"
@@ -10049,7 +10004,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Boss",
+                    "FinalBoss",
                     ""
                   ]
                 },
@@ -10257,6 +10212,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Behavior",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10390,7 +10346,7 @@
                   },
                   "parameters": [
                     "Agent_Stickman",
-                    "Boss",
+                    "FinalBoss",
                     "800",
                     ""
                   ]
@@ -10412,7 +10368,7 @@
                     "value": "PathfindingBehavior::SetDestination"
                   },
                   "parameters": [
-                    "Boss",
+                    "FinalBoss",
                     "Pathfinding",
                     "",
                     "Agent_Stickman.X()",
@@ -10423,6 +10379,11 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
