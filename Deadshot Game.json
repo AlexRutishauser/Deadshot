@@ -1774,6 +1774,38 @@
         "name": "assets\\cityscape.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Game_Over_Screen-1.png_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Game_Over_Screen-1.png_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Building_4-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Building_4-1.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Building_5-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Building_5-1.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Building_6-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Building_6-1.png.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1841,6 +1873,40 @@
           "x": 381,
           "y": 68,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1084,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NewSprite2",
+          "persistentUuid": "2efc2ded-a773-47f9-a3c8-9c2a3bfdbbd4",
+          "width": 1084,
+          "x": -558,
+          "y": 11,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1131,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NewSprite3",
+          "persistentUuid": "7bc1a9b8-a9da-4b3d-b758-e789b75298dd",
+          "width": 1131,
+          "x": 1374,
+          "y": 38,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1990,11 +2056,137 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Building_4-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 221,
+                            "y": 52
+                          },
+                          {
+                            "x": 1118,
+                            "y": 52
+                          },
+                          {
+                            "x": 1118,
+                            "y": 1300
+                          },
+                          {
+                            "x": 221,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Building_5-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 260,
+                            "y": 39
+                          },
+                          {
+                            "x": 975,
+                            "y": 39
+                          },
+                          {
+                            "x": 975,
+                            "y": 1300
+                          },
+                          {
+                            "x": 260,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
           {
             "objectName": "StartButton"
           },
@@ -2046,6 +2238,39 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -2119,15 +2344,15 @@
       ]
     },
     {
-      "b": 170,
+      "b": 42,
       "disableInputWhenNotFocused": true,
       "mangledName": "Game_32Screen",
       "name": "Game Screen",
-      "r": 112,
+      "r": 139,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 67,
+      "v": 87,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -2138,7 +2363,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3437520241612679,
+        "zoomFactor": 0.038516202688021604,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2171,8 +2396,8 @@
           "name": "Agent_Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
           "width": 84,
-          "x": 162,
-          "y": 735,
+          "x": 27975,
+          "y": -2489,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3948,7 +4173,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "City Background",
+          "layer": "City/Buildings Background",
           "name": "CityBackground",
           "persistentUuid": "b4825613-ebba-49d3-93f0-39844a3ebc1b",
           "width": 0,
@@ -3964,7 +4189,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "City Background",
+          "layer": "City/Buildings Background",
           "name": "Building",
           "persistentUuid": "f75d66a9-585b-43d0-a9b2-decc1fc0134c",
           "width": 0,
@@ -3980,93 +4205,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "City Background",
+          "layer": "City/Buildings Background",
           "name": "CityBackground",
           "persistentUuid": "34282463-b9ee-483d-b1df-9e9299c8444c",
           "width": 0,
           "x": 32501,
           "y": -1809,
           "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "City Background",
-          "name": "Building",
-          "persistentUuid": "a4d6df7e-cdf0-4197-a4fe-f028524c8e1b",
-          "width": 0,
-          "x": 23552,
-          "y": -3941,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "City Background",
-          "name": "Building",
-          "persistentUuid": "58e0d561-4ccb-4ff4-9e48-df9f863c92db",
-          "width": 0,
-          "x": 26404,
-          "y": -3983,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "City Background",
-          "name": "InclineBuilding",
-          "persistentUuid": "30dcdc60-7330-414f-897c-c7011590629b",
-          "width": 0,
-          "x": 25003,
-          "y": -3835,
-          "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "City Background",
-          "name": "InclineBuilding",
-          "persistentUuid": "cf04cfc0-a93f-4319-833c-5308e2abdab0",
-          "width": 0,
-          "x": 21023,
-          "y": -2732,
-          "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "City Background",
-          "name": "InclineBuilding",
-          "persistentUuid": "087abff9-5485-498c-b347-8d2cf38f9371",
-          "width": 0,
-          "x": 10164,
-          "y": -2318,
-          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4271,6 +4416,170 @@
           "x": 31847,
           "y": -1983,
           "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 3,
+          "height": 3606,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "Rectangle_Building",
+          "persistentUuid": "13845955-a41f-4226-aa76-a06e62e2fb90",
+          "width": 3397,
+          "x": 27478,
+          "y": -3548,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "Triangle_Building",
+          "persistentUuid": "ea4e24ab-ebea-4008-98b2-c2093aacbeda",
+          "width": 0,
+          "x": 24513,
+          "y": 3558,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "Rectangle_Building",
+          "persistentUuid": "31ec4aa9-4136-4179-b328-4f9355944457",
+          "width": 0,
+          "x": 27914,
+          "y": 2819,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 4698,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "Tower",
+          "persistentUuid": "48216134-fe54-43b3-b655-67fa35fe65a6",
+          "width": 5323,
+          "x": 18823,
+          "y": -3199,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "Tower",
+          "persistentUuid": "6157c10f-79e9-4d9e-8ef9-8723323ed0d9",
+          "width": 0,
+          "x": 29251,
+          "y": 2825,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "Building",
+          "persistentUuid": "e5f19683-f4f8-4496-9e45-f59e89eeb6cb",
+          "width": 0,
+          "x": 24956,
+          "y": 1667,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "InclineBuilding",
+          "persistentUuid": "8e6868dd-d6f8-45d8-9a00-2d83142869e9",
+          "width": 0,
+          "x": 23054,
+          "y": -4219,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 3481,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "Rectangle_Building",
+          "persistentUuid": "550e4818-d450-4b3a-bab2-0d1963debdec",
+          "width": 3481,
+          "x": 24794,
+          "y": -3175,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 2,
+          "height": 2429,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "Tower",
+          "persistentUuid": "1bd87f04-9495-4447-ab04-919e0864d8c6",
+          "width": 2429,
+          "x": 30455,
+          "y": -1810,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "City/Buildings Background",
+          "name": "InclineBuilding",
+          "persistentUuid": "295ea204-fb02-4933-a259-9e4253059ff5",
+          "width": 0,
+          "x": 29373,
+          "y": 2149,
+          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8121,6 +8430,186 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tower",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Building_4-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 221,
+                            "y": 52
+                          },
+                          {
+                            "x": 1118,
+                            "y": 52
+                          },
+                          {
+                            "x": 1118,
+                            "y": 1300
+                          },
+                          {
+                            "x": 221,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Triangle_Building",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Building_5-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 260,
+                            "y": 39
+                          },
+                          {
+                            "x": 975,
+                            "y": 39
+                          },
+                          {
+                            "x": 975,
+                            "y": 1300
+                          },
+                          {
+                            "x": 260,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Rectangle_Building",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Building_6-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 208,
+                            "y": 312
+                          },
+                          {
+                            "x": 858,
+                            "y": 312
+                          },
+                          {
+                            "x": 858,
+                            "y": 1300
+                          },
+                          {
+                            "x": 208,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8130,22 +8619,31 @@
             "folderName": "Platforms",
             "children": [
               {
-                "objectName": "Building"
-              },
-              {
                 "objectName": "CityBackground"
               },
               {
                 "objectName": "PurpleBackground"
               },
               {
+                "objectName": "Building"
+              },
+              {
                 "objectName": "TopLeftCornerWoodBackgroundCutout"
+              },
+              {
+                "objectName": "StonePlatform"
               },
               {
                 "objectName": "InclineBuilding"
               },
               {
-                "objectName": "StonePlatform"
+                "objectName": "Tower"
+              },
+              {
+                "objectName": "Rectangle_Building"
+              },
+              {
+                "objectName": "Triangle_Building"
               },
               {
                 "objectName": "Hallway_Interior"
@@ -8495,36 +8993,6 @@
                     "\"Jump\""
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                      },
-                      "parameters": [
-                        "Agent_Stickman",
-                        "Animation"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Agent_Stickman",
-                        "Animation",
-                        "=",
-                        "\"Idle\""
-                      ]
-                    }
-                  ]
-                }
               ]
             },
             {
@@ -8627,12 +9095,6 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -8650,40 +9112,11 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "Agent_Stickman",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Agent_Stickman",
-                    "Animation",
-                    "=",
-                    "\"Idle\""
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
+                    "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
                     "Agent_Stickman",
@@ -8706,7 +9139,7 @@
                     "Agent_Stickman",
                     "Animation",
                     "=",
-                    "\"Idle\""
+                    "\"Fall\""
                   ]
                 }
               ]
@@ -9317,6 +9750,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Taking Damage/Deaths",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9910,18 +10344,6 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Sound Effects\\Enemy Death Sound.wav",
-                    "",
-                    "25",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
@@ -9929,6 +10351,18 @@
                     "Ammo",
                     "Medium_Tier_Enemy.BoundingBoxCenterX()",
                     "Medium_Tier_Enemy.BoundingBoxCenterX()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound Effects\\Enemy Death Sound.wav",
+                    "",
+                    "25",
                     ""
                   ]
                 }
@@ -10212,7 +10646,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemy Behavior",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10397,8 +10830,8 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
-          "name": "City Background",
+          "isLocked": false,
+          "name": "City/Buildings Background",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -10430,7 +10863,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -10597,7 +11030,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3895856273827292,
+        "zoomFactor": 0.5995738389111088,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10699,6 +11132,23 @@
           "x": -9,
           "y": -945,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 389,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "df0ba85b-f6df-4973-867c-639e6b70a522",
+          "width": 389,
+          "x": 900,
+          "y": 653,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11100,6 +11550,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Game_Over_Screen-1.png_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1300,
+                            "y": 0
+                          },
+                          {
+                            "x": 1300,
+                            "y": 1300
+                          },
+                          {
+                            "x": 0,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11110,6 +11620,9 @@
           },
           {
             "objectName": "Game_Over_Text"
+          },
+          {
+            "objectName": "NewSprite2"
           },
           {
             "objectName": "Restart"
