@@ -2371,7 +2371,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.17130934511243892,
+        "zoomFactor": 0.05734296625442526,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2404,8 +2404,8 @@
           "name": "Agent_Stickman",
           "persistentUuid": "1e3ad9ca-255e-468a-a3e6-1f5f91c23f36",
           "width": 84,
-          "x": 107,
-          "y": 732,
+          "x": 2961,
+          "y": 714,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4457,7 +4457,7 @@
           "name": "Building",
           "persistentUuid": "8ae9cd5f-ad04-43ae-bac2-52c985151444",
           "width": 0,
-          "x": 14280,
+          "x": 14277,
           "y": -2781,
           "zOrder": -1,
           "numberProperties": [],
@@ -4525,9 +4525,9 @@
           "name": "Rectangle_Building",
           "persistentUuid": "5dea3a5c-54f2-44f3-bb9a-a6734acba20d",
           "width": 2610,
-          "x": 27371,
-          "y": -3188,
-          "zOrder": -6,
+          "x": 27357,
+          "y": -3190,
+          "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4542,9 +4542,9 @@
           "name": "Rectangle_Building",
           "persistentUuid": "40dca545-72c2-402e-a052-95cf9cb57660",
           "width": 2610,
-          "x": 24482,
-          "y": -3262,
-          "zOrder": -6,
+          "x": 24485,
+          "y": -3256,
+          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4582,16 +4582,17 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 1403,
           "keepRatio": true,
           "layer": "",
           "name": "Rectangle_Building",
           "persistentUuid": "9c43de9b-6934-4cbe-9937-a9f4dcefa3f7",
-          "width": 0,
-          "x": 25220,
-          "y": 6328,
+          "width": 1300,
+          "x": 23781,
+          "y": -2375,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -4846,6 +4847,57 @@
           "x": 34033,
           "y": -3517,
           "zOrder": -8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 2610,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rectangle_Building",
+          "persistentUuid": "18d3c833-0694-4775-8684-7f8dfdac45f4",
+          "width": 2610,
+          "x": 24327,
+          "y": 4482,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 2610,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rectangle_Building",
+          "persistentUuid": "ade0fed2-036e-4e61-ba07-dace213ad02b",
+          "width": 3611,
+          "x": 30119,
+          "y": -2440,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 2,
+          "height": 2610,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rectangle_Building",
+          "persistentUuid": "b214d4bd-64a9-4958-a479-b7786b3520bf",
+          "width": 2610,
+          "x": 31874,
+          "y": -1791,
+          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7161,16 +7213,6 @@
           "behaviors": [
             {
               "isFolded": true,
-              "name": "AnimatedBackAndForthMirroredMovement",
-              "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
-              "Animation": "Animation",
-              "Flippable": "Flippable",
-              "SpeedX": 100,
-              "DistanceX": 100,
-              "InitialX": 0
-            },
-            {
-              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -7957,15 +7999,6 @@
           "behaviors": [
             {
               "isFolded": true,
-              "name": "AnimatedBackAndForthMirroredMovement",
-              "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
-              "Animation": "Animation",
-              "Flippable": "Flippable",
-              "SpeedX": 200,
-              "DistanceX": 300,
-              "InitialX": 0
-            },
-            {
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -10928,22 +10961,12 @@
                   "parameters": [
                     "Agent_Stickman",
                     "Low_Tier_Enemy",
-                    "800",
+                    "500",
                     ""
                   ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Low_Tier_Enemy",
-                    "AnimatedBackAndForthMirroredMovement",
-                    "yes"
-                  ]
-                },
                 {
                   "type": {
                     "value": "PathfindingBehavior::SetDestination"
@@ -10968,22 +10991,12 @@
                   "parameters": [
                     "Agent_Stickman",
                     "Medium_Tier_Enemy",
-                    "800",
+                    "400",
                     ""
                   ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Medium_Tier_Enemy",
-                    "AnimatedBackAndForthMirroredMovement",
-                    "yes"
-                  ]
-                },
                 {
                   "type": {
                     "value": "PathfindingBehavior::SetDestination"
@@ -11008,22 +11021,12 @@
                   "parameters": [
                     "Agent_Stickman",
                     "High_Tier_Enemy",
-                    "800",
+                    "300",
                     ""
                   ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Low_Tier_Enemy",
-                    "AnimatedBackAndForthMirroredMovement",
-                    "yes"
-                  ]
-                },
                 {
                   "type": {
                     "value": "PathfindingBehavior::SetDestination"
@@ -11048,22 +11051,12 @@
                   "parameters": [
                     "Agent_Stickman",
                     "FinalBoss",
-                    "800",
+                    "150",
                     ""
                   ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Low_Tier_Enemy",
-                    "AnimatedBackAndForthMirroredMovement",
-                    "yes"
-                  ]
-                },
                 {
                   "type": {
                     "value": "PathfindingBehavior::SetDestination"
