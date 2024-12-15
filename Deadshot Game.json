@@ -2481,7 +2481,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2817259932079964,
+        "zoomFactor": 0.19561100536772089,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2516,7 +2516,7 @@
           "width": 84,
           "x": 65,
           "y": 725,
-          "zOrder": 88,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4771,8 +4771,8 @@
           "name": "InclineBuilding",
           "persistentUuid": "083488f4-3b6b-4c15-8bd5-dd02b81eda6d",
           "width": 2622,
-          "x": 34033,
-          "y": -3517,
+          "x": 34049,
+          "y": -3496,
           "zOrder": -8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4822,8 +4822,8 @@
           "name": "Rectangle_Building",
           "persistentUuid": "b214d4bd-64a9-4958-a479-b7786b3520bf",
           "width": 2610,
-          "x": 32291,
-          "y": -2582,
+          "x": 32287,
+          "y": -2586,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -7639,7 +7639,6 @@
               "RandomizedAngle": 0
             },
             {
-              "isFolded": true,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
@@ -7657,6 +7656,7 @@
             },
             {
               "ignoreDefaultControls": true,
+              "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -7790,6 +7790,7 @@
               "InitialX": 0
             },
             {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -7820,7 +7821,6 @@
               "RandomizedAngle": 0
             },
             {
-              "isFolded": true,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
@@ -7837,6 +7837,7 @@
               "smoothingMaxCellGap": 1
             },
             {
+              "ignoreDefaultControls": true,
               "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -7846,7 +7847,6 @@
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
@@ -7982,7 +7982,6 @@
               "RandomizedAngle": 0
             },
             {
-              "isFolded": true,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
@@ -7999,7 +7998,7 @@
               "smoothingMaxCellGap": 1
             },
             {
-              "isFolded": true,
+              "ignoreDefaultControls": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -8008,7 +8007,6 @@
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
@@ -8399,8 +8397,8 @@
               "RandomizedAngle": 0
             },
             {
-              "isFolded": true,
               "name": "Pathfinding",
+              "rotateObject": false,
               "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
@@ -8412,10 +8410,10 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "rotateObject": true,
               "smoothingMaxCellGap": 1
             },
             {
+              "ignoreDefaultControls": true,
               "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -8425,7 +8423,6 @@
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
