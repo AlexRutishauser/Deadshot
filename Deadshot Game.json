@@ -1271,7 +1271,7 @@
       {
         "file": "assets/High spikes.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/High spikes.png\",\"extension\":\".png\"}",
         "name": "High spikes.png",
         "smoothed": false,
         "userAdded": false,
@@ -1531,7 +1531,7 @@
       {
         "file": "assets/Black Decorated Button_Hovered.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Black Decorated Button_Hovered.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Black Decorated Button_Hovered.png",
         "smoothed": false,
         "userAdded": false,
@@ -1543,7 +1543,7 @@
       {
         "file": "assets/Black Decorated Button_Idle.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Black Decorated Button_Idle.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Black Decorated Button_Idle.png",
         "smoothed": false,
         "userAdded": false,
@@ -1555,7 +1555,7 @@
       {
         "file": "assets/Black Decorated Button_Pressed.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Black Decorated Button_Pressed.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Black Decorated Button_Pressed.png",
         "smoothed": false,
         "userAdded": false,
@@ -1869,6 +1869,46 @@
         "metadata": "",
         "name": "assets\\Pixel Digivolve Italic.otf",
         "userAdded": false
+      },
+      {
+        "file": "assets/Black Decorated Button_Idle.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Black Decorated Button_Idle.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Black Decorated Button_Idle.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Black Decorated Button_Idle.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Building_Roof-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Building_Roof-1.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Building_Roof-2.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Building_Roof-2.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Building_Roof-3.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Building_Roof-3.png.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1900,7 +1940,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4027225833325912,
+        "zoomFactor": 0.6197916666666665,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1916,8 +1956,8 @@
           "name": "StartButton",
           "persistentUuid": "e42436d2-d8a4-444c-8f96-e097577b36e7",
           "width": 304,
-          "x": 770,
-          "y": 890,
+          "x": 733,
+          "y": 820,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1933,8 +1973,8 @@
           "name": "NewSprite",
           "persistentUuid": "0c4fde8a-a9ce-4582-8360-336033154e01",
           "width": 1063,
-          "x": 476,
-          "y": 198,
+          "x": 424,
+          "y": 76,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2007,7 +2047,7 @@
               "height": 64,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "Black Decorated Button_Idle.png",
+              "texture": "Black Decorated Button_Idle.png3",
               "tiled": true,
               "topMargin": 16,
               "width": 192
@@ -2441,7 +2481,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.16031528804548842,
+        "zoomFactor": 0.2817259932079964,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2476,39 +2516,23 @@
           "width": 84,
           "x": 65,
           "y": 725,
-          "zOrder": 80,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 360,
-          "customSize": true,
-          "depth": 1,
-          "height": 109,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ammo",
-          "persistentUuid": "63445782-1c2d-41b0-bb7f-670c0fe318ba",
-          "width": 98,
-          "x": 14860,
-          "y": -1197,
-          "zOrder": 72,
+          "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
           "keepRatio": true,
           "layer": "UI",
           "name": "TimerText",
           "persistentUuid": "a3fdb799-e381-47a7-a734-169aebe6e80c",
-          "width": 0,
-          "x": 1453,
-          "y": 33,
+          "width": 236,
+          "x": 1648,
+          "y": 18,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2583,40 +2607,6 @@
           "initialVariables": []
         },
         {
-          "angle": 270,
-          "customSize": true,
-          "depth": 16,
-          "height": 249,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
-          "persistentUuid": "62cd4e9e-e749-4129-9a94-31de1ed052a3",
-          "width": 318,
-          "x": 7511,
-          "y": 928,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 16,
-          "height": 249,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
-          "persistentUuid": "c6148324-adfd-4660-bd2c-24b7701d9e35",
-          "width": 354,
-          "x": 8296,
-          "y": 896,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
           "depth": 9,
@@ -2627,7 +2617,7 @@
           "persistentUuid": "4948d419-bd56-45c4-88b9-3b61ccb3afa5",
           "width": 756,
           "x": 7618,
-          "y": 935,
+          "y": 993,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -2663,23 +2653,6 @@
           "x": 15219,
           "y": -1021,
           "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 480,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PurpleBackground",
-          "persistentUuid": "d7968638-963c-4f6b-b612-4200bdcc9e15",
-          "width": 187,
-          "x": 14824,
-          "y": -1111,
-          "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3374,8 +3347,8 @@
           "name": "HighSpikes",
           "persistentUuid": "b381b138-7fac-4924-8b55-9b71a4f34e2e",
           "width": 254,
-          "x": 27106,
-          "y": -2329,
+          "x": 27103,
+          "y": -2200,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -3470,14 +3443,14 @@
           "angle": 30,
           "customSize": true,
           "depth": 4,
-          "height": 119,
+          "height": 106,
           "keepRatio": true,
           "layer": "",
           "name": "HighSpikes",
           "persistentUuid": "a243ca6b-498e-4112-be80-154eddab20c7",
-          "width": 254,
+          "width": 226,
           "x": 30450,
-          "y": -2102,
+          "y": -2060,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -3740,13 +3713,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
           "keepRatio": true,
           "layer": "UI",
           "name": "Ammo_Counter",
           "persistentUuid": "6e240596-5358-4be9-8aa2-572d936e675b",
-          "width": 0,
+          "width": 117,
           "x": 107,
           "y": 65,
           "zOrder": 28,
@@ -3823,40 +3797,6 @@
           "initialVariables": []
         },
         {
-          "angle": 359,
-          "customSize": true,
-          "depth": 1,
-          "height": 166,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Health_Pick_Up",
-          "persistentUuid": "d6c1cf64-f37d-41ce-94aa-dc7b49c0a694",
-          "width": 166,
-          "x": 18645,
-          "y": -1698,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 121,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ammo",
-          "persistentUuid": "e27b2990-6e34-4c0d-859d-a570eab6a3ff",
-          "width": 108,
-          "x": 24104,
-          "y": -1906,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
           "depth": 1,
@@ -3885,22 +3825,23 @@
           "width": 389,
           "x": 30,
           "y": -77,
-          "zOrder": 43,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
           "keepRatio": true,
           "layer": "UI",
           "name": "ShotgunCountdown",
           "persistentUuid": "233e1561-91aa-48c5-9577-6cdba985d137",
-          "width": 0,
-          "x": 544,
-          "y": 32,
+          "width": 608,
+          "x": 564,
+          "y": 10,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -3958,23 +3899,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 28,
-          "keepRatio": true,
-          "layer": "",
-          "name": "StonePlatform",
-          "persistentUuid": "a60a48c3-be7f-471e-9b83-2eb790914d3c",
-          "width": 188,
-          "x": 14823,
-          "y": -1120,
-          "zOrder": 73,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 270,
           "customSize": true,
           "depth": 4,
@@ -4020,7 +3944,7 @@
           "width": 567,
           "x": 143,
           "y": -153,
-          "zOrder": 45,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4054,7 +3978,7 @@
           "width": 131,
           "x": 5,
           "y": 41,
-          "zOrder": 47,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4225,23 +4149,6 @@
           "x": 6187,
           "y": -320,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 257,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Medium_Tier_Enemy",
-          "persistentUuid": "378e811d-fbd7-4857-b5cd-8e8065dc5448",
-          "width": 257,
-          "x": 12804,
-          "y": -102,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4503,22 +4410,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Building",
-          "persistentUuid": "8ae9cd5f-ad04-43ae-bac2-52c985151444",
-          "width": 0,
-          "x": 14277,
-          "y": -2781,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 1886,
@@ -4544,8 +4435,8 @@
           "name": "Triangle_Building",
           "persistentUuid": "6052aa6c-60c3-4331-be60-e633a8aa1955",
           "width": 2708,
-          "x": 17708,
-          "y": -1179,
+          "x": 17772,
+          "y": -1147,
           "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4589,14 +4480,14 @@
           "angle": 270,
           "customSize": true,
           "depth": 2,
-          "height": 2610,
+          "height": 2617,
           "keepRatio": true,
           "layer": "",
           "name": "Rectangle_Building",
           "persistentUuid": "40dca545-72c2-402e-a052-95cf9cb57660",
           "width": 2610,
-          "x": 24485,
-          "y": -3256,
+          "x": 24489,
+          "y": -3260,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -4643,8 +4534,8 @@
           "layer": "",
           "name": "Rectangle_Building",
           "persistentUuid": "9c43de9b-6934-4cbe-9937-a9f4dcefa3f7",
-          "width": 1300,
-          "x": 23802,
+          "width": 814,
+          "x": 24288,
           "y": -2359,
           "zOrder": 62,
           "numberProperties": [],
@@ -4746,23 +4637,6 @@
           "width": 3215,
           "x": 26157,
           "y": -3568,
-          "zOrder": -7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 3200,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CityBackground",
-          "persistentUuid": "508500df-b13b-4a92-aee6-61705183d71f",
-          "width": 3215,
-          "x": 23114,
-          "y": -3561,
           "zOrder": -7,
           "numberProperties": [],
           "stringProperties": [],
@@ -4925,14 +4799,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 2610,
+          "height": 2607,
           "keepRatio": true,
           "layer": "",
           "name": "Rectangle_Building",
           "persistentUuid": "ade0fed2-036e-4e61-ba07-dace213ad02b",
-          "width": 3611,
-          "x": 30119,
-          "y": -2440,
+          "width": 3815,
+          "x": 29986,
+          "y": -2437,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -4942,14 +4816,14 @@
           "angle": 270,
           "customSize": true,
           "depth": 2,
-          "height": 2610,
+          "height": 4203,
           "keepRatio": true,
           "layer": "",
           "name": "Rectangle_Building",
           "persistentUuid": "b214d4bd-64a9-4958-a479-b7786b3520bf",
           "width": 2610,
-          "x": 31874,
-          "y": -1791,
+          "x": 32291,
+          "y": -2582,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -5023,23 +4897,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1823,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Triangle_Building",
-          "persistentUuid": "28f7564a-41a1-4569-9f05-8bc788577a31",
-          "width": 1481,
-          "x": 14213,
-          "y": -2458,
-          "zOrder": 71,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 270,
           "customSize": true,
           "depth": 2,
@@ -5082,9 +4939,9 @@
           "layer": "",
           "name": "Triangle_Building",
           "persistentUuid": "63f0930f-df49-4934-b383-40f3e4270226",
-          "width": 1475,
-          "x": 23386,
-          "y": -1292,
+          "width": 1569,
+          "x": 23333,
+          "y": -1315,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -5099,9 +4956,9 @@
           "layer": "",
           "name": "Triangle_Building",
           "persistentUuid": "33d711f9-b5a3-42cd-b883-c8546ccef3b2",
-          "width": 1475,
-          "x": 23008,
-          "y": -2885,
+          "width": 1058,
+          "x": 22214,
+          "y": -2934,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -5186,6 +5043,307 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "faf2768b-c9db-4462-a12f-fcee98d41373",
+          "width": 0,
+          "x": 7296,
+          "y": 1094,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StonePlatform",
+          "persistentUuid": "fe60ef6e-46ea-4041-9105-1583adbd263a",
+          "width": 0,
+          "x": 7947,
+          "y": 1085,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 330,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Low_Tier_Enemy",
+          "persistentUuid": "2401884f-4b37-4ef8-9d65-a887cbab6b14",
+          "width": 0,
+          "x": 14519,
+          "y": -531,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Medium_Tier_Enemy",
+          "persistentUuid": "701bc525-72d2-46ae-ae1a-fdfd178cc1d3",
+          "width": 0,
+          "x": 11701,
+          "y": -200,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 254,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Yellow_",
+          "persistentUuid": "310cfc6e-9bd5-4054-94ba-d8039a92a383",
+          "width": 720,
+          "x": 17916,
+          "y": -341,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 330,
+          "customSize": true,
+          "depth": 1,
+          "height": 391,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Red",
+          "persistentUuid": "e26ed4d1-5ea8-4d7b-846e-b5c41cfcc1ae",
+          "width": 706,
+          "x": 18492,
+          "y": -687,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 202,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Blue",
+          "persistentUuid": "3f9d3d99-f0f5-4514-90e6-fea3672d6f83",
+          "width": 733,
+          "x": 17980,
+          "y": 27,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 254,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Yellow_",
+          "persistentUuid": "d509ab84-4479-4652-af8b-644e3f6cfd65",
+          "width": 720,
+          "x": 18638,
+          "y": -152,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 465,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Blue",
+          "persistentUuid": "d016d141-9e3f-4af6-b54c-6e60cecd9410",
+          "width": 325,
+          "x": 23559,
+          "y": -1650,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 489,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Blue",
+          "persistentUuid": "1bdb212a-3247-4f4e-afc0-f9f8d71760b3",
+          "width": 300,
+          "x": 24007,
+          "y": -2060,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 482,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Blue",
+          "persistentUuid": "8b3f46c7-de67-4e8b-bda3-72b7a5fc9216",
+          "width": 300,
+          "x": 24006,
+          "y": -2443,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 482,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Blue",
+          "persistentUuid": "81281b06-bde2-447d-b880-7df14b8db04e",
+          "width": 300,
+          "x": 23565,
+          "y": -2368,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 518,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Blue",
+          "persistentUuid": "a6fa2144-f27a-40c9-ab3f-18be958cde8b",
+          "width": 300,
+          "x": 23566,
+          "y": -2262,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 3200,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CityBackground",
+          "persistentUuid": "964a9e8f-80ff-4e78-a8e6-a2c319b1d35c",
+          "width": 3215,
+          "x": 23045,
+          "y": -3577,
+          "zOrder": -13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 291,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Red",
+          "persistentUuid": "22f814a8-37bf-47c4-aac5-4042a2583565",
+          "width": 236,
+          "x": 25097,
+          "y": -2765,
+          "zOrder": 96,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 258,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Yellow_",
+          "persistentUuid": "e9a6f831-85ae-4197-85b9-733e76ac3398",
+          "width": 223,
+          "x": 28625,
+          "y": -2640,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 258,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building_Platform__Yellow_",
+          "persistentUuid": "cac7bad0-b78b-47fd-9b04-73dcbff42929",
+          "width": 229,
+          "x": 28764,
+          "y": -2640,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shotgun",
+          "persistentUuid": "9d7a8bed-6dfd-40d8-bf01-fd063ff20c4e",
+          "width": 0,
+          "x": 18632,
+          "y": -1689,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5193,6 +5351,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "f91c3c26a7e69da7f2b52fd54f3c9d9ce47042a4876575c7afc552f8288e18a1",
           "name": "StonePlatform",
+          "preScale": 15,
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5304,7 +5463,7 @@
               "ShotsBeforeNextReload": 0,
               "TotalShotsFired": 0,
               "TotalBulletsCreated": 0,
-              "StartingAmmo": 64,
+              "StartingAmmo": 50,
               "TotalReloadsCompleted": 0,
               "UnlimitedAmmo": false,
               "ReloadInProgress": false,
@@ -7110,7 +7269,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Ammo",
-          "preScale": 0.5,
+          "preScale": 0.1,
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7401,7 +7560,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Timer : 0",
+          "string": "0",
           "font": "assets\\Pixel Digivolve Italic.otf",
           "textAlignment": "left",
           "characterSize": 70,
@@ -7424,7 +7583,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Timer : 0",
+            "text": "0",
             "font": "assets\\Pixel Digivolve Italic.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -7436,6 +7595,7 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Low_Tier_Enemy",
+          "preScale": 0.25,
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -7496,7 +7656,7 @@
               "smoothingMaxCellGap": 1
             },
             {
-              "isFolded": true,
+              "ignoreDefaultControls": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -7505,7 +7665,6 @@
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
@@ -7608,6 +7767,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Medium_Tier_Enemy",
+          "preScale": 0.35,
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -8074,11 +8234,12 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "High spikes",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.025,
                   "sprites": [
                     {
@@ -9312,6 +9473,189 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Building_Platform__Yellow_",
+          "preScale": 0.5,
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Building_Roof-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 234,
+                            "y": 650
+                          },
+                          {
+                            "x": 1053,
+                            "y": 650
+                          },
+                          {
+                            "x": 1053,
+                            "y": 1300
+                          },
+                          {
+                            "x": 234,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Building_Platform__Blue",
+          "preScale": 0.5,
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Building_Roof-3.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 234,
+                            "y": 650
+                          },
+                          {
+                            "x": 1053,
+                            "y": 650
+                          },
+                          {
+                            "x": 1053,
+                            "y": 1300
+                          },
+                          {
+                            "x": 234,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Building_Platform__Red",
+          "preScale": 0.5,
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Building_Roof-2.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 234,
+                            "y": 650
+                          },
+                          {
+                            "x": 1053,
+                            "y": 650
+                          },
+                          {
+                            "x": 1053,
+                            "y": 1300
+                          },
+                          {
+                            "x": 234,
+                            "y": 1300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9346,6 +9690,15 @@
               },
               {
                 "objectName": "Triangle_Building"
+              },
+              {
+                "objectName": "Building_Platform__Yellow_"
+              },
+              {
+                "objectName": "Building_Platform__Blue"
+              },
+              {
+                "objectName": "Building_Platform__Red"
               },
               {
                 "objectName": "Hallway_Interior"
@@ -9571,7 +9924,7 @@
                 "TimerText",
                 "Text",
                 "=",
-                "\"Time:\" + TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"GameTime\"))"
+                " TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"GameTime\"))"
               ]
             }
           ]
@@ -9861,6 +10214,17 @@
               ]
             },
             {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Animation Fix Experiment ",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9889,17 +10253,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Animation Fix Experiment ",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [],
-              "parameters": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10759,7 +11112,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Taking Damage/Deaths",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10821,7 +11173,7 @@
                     "",
                     "Sound Effects\\You Lose!.wav",
                     "",
-                    "0",
+                    "200",
                     ""
                   ]
                 }
@@ -10883,7 +11235,7 @@
                     "",
                     "Sound Effects\\Stickman Hit.wav",
                     "",
-                    "0",
+                    "200",
                     ""
                   ]
                 }
@@ -10932,7 +11284,7 @@
                     "",
                     "Sound Effects\\You Lose!.wav",
                     "",
-                    "100",
+                    "200",
                     ""
                   ]
                 }
@@ -11646,7 +11998,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemy Behavior",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11770,23 +12121,6 @@
                   ]
                 }
               ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Random",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
@@ -12799,7 +13133,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4913877545329353,
+        "zoomFactor": 0.731578646375301,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12814,8 +13148,8 @@
           "name": "Congrats",
           "persistentUuid": "4348ba35-8efa-4fd1-be9e-77ac76c54ae8",
           "width": 0,
-          "x": 458,
-          "y": 367,
+          "x": 313,
+          "y": 262,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12831,8 +13165,8 @@
           "name": "Restart_Button",
           "persistentUuid": "ec1b2557-bfe8-47b8-b335-616e5f22244e",
           "width": 416,
-          "x": 372,
-          "y": 850,
+          "x": 366,
+          "y": 833,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -12848,8 +13182,8 @@
           "name": "Quit_Button",
           "persistentUuid": "28a9d4ba-7f96-464a-a5cf-44eda5f9664e",
           "width": 318,
-          "x": 1294,
-          "y": 860,
+          "x": 1312,
+          "y": 836,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -12857,15 +13191,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 146,
           "keepRatio": true,
           "layer": "",
           "name": "Restart",
           "persistentUuid": "9881fbe4-9e57-4f93-8ddd-1ac05e6523a0",
-          "width": 0,
-          "x": 295,
-          "y": 692,
+          "width": 744,
+          "x": 280,
+          "y": 672,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -12880,8 +13215,8 @@
           "name": "Quit",
           "persistentUuid": "c61996c3-7fe5-4c7e-b50f-d969c35ea8d3",
           "width": 0,
-          "x": 1216,
-          "y": 770,
+          "x": 1217,
+          "y": 746,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -12900,6 +13235,22 @@
           "x": -1,
           "y": -574,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Thanks",
+          "persistentUuid": "a4af04de-3d46-4586-9a3f-c5a55a9d75fc",
+          "width": 0,
+          "x": 711,
+          "y": 609,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12948,9 +13299,9 @@
               "smoothed": true,
               "underlined": false,
               "string": "Play Again",
-              "font": "ArchitectsDaughter.ttf",
+              "font": "assets\\Pixel Digivolve Italic.otf",
               "textAlignment": "center",
-              "characterSize": 66,
+              "characterSize": 60,
               "color": {
                 "b": 255,
                 "g": 255,
@@ -12971,10 +13322,10 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "Play Again",
-                "font": "ArchitectsDaughter.ttf",
+                "font": "assets\\Pixel Digivolve Italic.otf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
-                "characterSize": 66,
+                "characterSize": 60,
                 "color": "255;255;255"
               }
             },
@@ -13032,7 +13383,7 @@
               "smoothed": true,
               "underlined": false,
               "string": "Quit ",
-              "font": "ArchitectsDaughter.ttf",
+              "font": "assets\\Pixel Digivolve Italic.otf",
               "textAlignment": "center",
               "characterSize": 66,
               "color": {
@@ -13055,7 +13406,7 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "Quit ",
-                "font": "ArchitectsDaughter.ttf",
+                "font": "assets\\Pixel Digivolve Italic.otf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
                 "characterSize": 66,
@@ -13086,7 +13437,7 @@
           "effects": [],
           "behaviors": [],
           "string": "           Congratulations! \n        You Saved Sticktopia! \nYou're now the legend known as \n            Agent Stickman!",
-          "font": "",
+          "font": "assets\\Pixel Digivolve Italic.otf",
           "textAlignment": "left",
           "characterSize": 75,
           "color": {
@@ -13109,7 +13460,7 @@
             "smoothed": true,
             "underlined": false,
             "text": "           Congratulations! \n        You Saved Sticktopia! \nYou're now the legend known as \n            Agent Stickman!",
-            "font": "",
+            "font": "assets\\Pixel Digivolve Italic.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 75,
@@ -13128,7 +13479,7 @@
           "effects": [],
           "behaviors": [],
           "string": "\nClick To Play Again!",
-          "font": "",
+          "font": "assets\\Pixel Digivolve Italic.otf",
           "textAlignment": "left",
           "characterSize": 65,
           "color": {
@@ -13151,7 +13502,7 @@
             "smoothed": true,
             "underlined": false,
             "text": "\nClick To Play Again!",
-            "font": "",
+            "font": "assets\\Pixel Digivolve Italic.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 65,
@@ -13170,7 +13521,7 @@
           "effects": [],
           "behaviors": [],
           "string": "Quit The Game",
-          "font": "",
+          "font": "assets\\Pixel Digivolve Italic.otf",
           "textAlignment": "left",
           "characterSize": 65,
           "color": {
@@ -13193,7 +13544,7 @@
             "smoothed": true,
             "underlined": false,
             "text": "Quit The Game",
-            "font": "",
+            "font": "assets\\Pixel Digivolve Italic.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 65,
@@ -13301,6 +13652,48 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Thanks",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Thanks For Playing!",
+          "font": "assets\\Pixel Digivolve Italic.otf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Thanks For Playing!",
+            "font": "assets\\Pixel Digivolve Italic.otf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "184;233;134"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -13314,6 +13707,9 @@
           },
           {
             "objectName": "Congrats"
+          },
+          {
+            "objectName": "Thanks"
           },
           {
             "objectName": "Restart"
