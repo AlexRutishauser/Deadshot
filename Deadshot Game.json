@@ -1997,6 +1997,94 @@
         "name": "Idle13",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Idle14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle24",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5825,11 +5913,12 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.0909,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_1.png",
+                      "image": "Idle14",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5865,7 +5954,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_2.png",
+                      "image": "Idle15",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5901,7 +5990,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_3.png",
+                      "image": "Idle16",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5937,7 +6026,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_4.png",
+                      "image": "Idle17",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5973,7 +6062,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_5.png",
+                      "image": "Idle18",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6009,7 +6098,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_6.png",
+                      "image": "Idle19",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6045,7 +6134,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_7.png",
+                      "image": "Idle20",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6081,7 +6170,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_8.png",
+                      "image": "Idle21",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6117,7 +6206,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_9.png",
+                      "image": "Idle22",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6153,7 +6242,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_10.png",
+                      "image": "Idle23",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6189,7 +6278,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Virtual Guy_Idle_11.png",
+                      "image": "Idle24",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
