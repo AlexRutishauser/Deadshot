@@ -5739,7 +5739,7 @@
               "ShotsBeforeNextReload": 0,
               "TotalShotsFired": 0,
               "TotalBulletsCreated": 0,
-              "StartingAmmo": 50,
+              "StartingAmmo": 64,
               "TotalReloadsCompleted": 0,
               "UnlimitedAmmo": false,
               "ReloadInProgress": false,
@@ -11076,7 +11076,7 @@
                   "parameters": [
                     "Healthbar",
                     "+",
-                    "100",
+                    "150",
                     ""
                   ]
                 },
@@ -11176,7 +11176,7 @@
                   "parameters": [
                     "Agent_Stickman",
                     "FireBullet",
-                    "8",
+                    "20",
                     ""
                   ]
                 },
